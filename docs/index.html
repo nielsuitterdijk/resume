@@ -1,1220 +1,956 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Entrepreneur,Developer" />
+    <meta name="keywords" content="resume,cv,Niels Uitterdijk" />
+    <meta name="author" content="Niels Uitterdijk" />
+    <!-- <meta name="robots" content="noindex"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- <link rel="preload" href="./fonts/FiraGO-Regular.latin.woff2" as="font" crossorigin="anonymous"> -->
+    <link href="./build.css" rel="stylesheet" />
+    <title>Niels Uitterdijk — Resume</title>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="description" content="Front-end and Vue Developer">
-  <meta name="keywords" content="resume,cv,Marko Marković">
-  <meta name="author" content="Marko Marković">
-  <!-- <meta name="robots" content="noindex"> -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <!-- <link rel="preload" href="./fonts/FiraGO-Regular.latin.woff2" as="font" crossorigin="anonymous"> -->
-  <link href="./build.css" rel="stylesheet">
-  <title>Marko Marković — Resume</title>
-</head>
+    <script
+      src="https://kit.fontawesome.com/a5d280c3ba.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<body>
-  <main class="font-firago hyphens-manual">
+  <body>
+    <main class="font-firago hyphens-manual">
+      <!-- Page -->
+      <div class="mx-auto page max-w-a4 h-a4 bg-white">
+        <div class="flex flex-col h-full w-full">
+          <!-- HEADER -->
+          <div class="flex h-14 items-center">
+            <div class="h-full text-white bg-gray-700 font-medium px-3 mx-8">
+              <div class="pt-10 mb-2">N</div>
+              <div>U</div>
+            </div>
+            <div class="flex-col">
+              <h1 class="text-2xl font-semibold text-gray-750 pb-px">
+                Niels Uitterdijk
+              </h1>
+              <p class="text-md text-gray-700">
+                Experienced ML Engineer with a passion for software engineering,
+                machine learning, and finance, seeking to work on ambitious
+                consulting projects.
+              </p>
+            </div>
+            <div>
+              <img width="150px" height="150px" src="unnamed.jpg" />
+            </div>
+          </div>
+          <!-- end Name -->
 
-    <!-- Page -->
-    <div class="p-6 mx-auto page max-w-2xl print:max-w-letter md:max-w-letter md:h-letter xsm:p-8 sm:p-9 md:p-16 bg-white">
+          <!-- COLUMNS -->
+          <div class="h-full grid grid-cols-3 col-gap-md col-fill-auto">
+            <!-- LEFT COLUMN -->
+            <div class="flex-1 bg-gray-400 p-8">
+              <!-- PROFILE -->
+              <section class="mt-8 first:mt-0">
+                <!-- To keep in the same column -->
+                <div class="break-inside-avoid">
+                  <h2
+                    class="mb-4 font-bold tracking-widest text-sm2 text-gray-550"
+                  >
+                    PROFILE
+                  </h2>
 
-      <!-- Name -->
-      <header class="flex items-center mb-8 md:mb-11">
-        <div   class="initials-container mr-5 text-base leading-none text-white bg-gray-700 font-medium print:bg-black px-3"
-          style="padding-bottom: 0.6875rem; padding-top: 0.6875rem; /*11px*/">
-          <div class="initial text-center" style="padding-bottom: 0.1875rem; /*3px*/">M</div>
-          <div class="text-center initial">M</div>
+                  <section class="mb-4.5 break-inside-avoid">
+                    <p class="mt-2.1 text-md text-gray-700 leading-normal">
+                      Ambitious engineer / entrepreneur with a passion for
+                      innovation, robust deployment and measured value-add. With
+                      a proven track record in software engineering, I have
+                      worked on projects spanning Machine Learning, CV and NLP.
+                      I excel at model development, data wrangling, experiment
+                      tracking, deployment monitoring, and maintaining best
+                      practices in CI/CD.
+                    </p>
+                  </section>
+                </div>
+              </section>
+
+              <!-- PROUD -->
+              <section class="mt-8 first:mt-0">
+                <div class="break-inside-avoid">
+                  <h2
+                    class="mb-4 font-bold tracking-widest text-sm2 text-gray-550"
+                  >
+                    MOST PROUD OF
+                  </h2>
+
+                  <section class="mb-4.5 break-inside-avoid">
+                    <ul class="list-inside pr-7">
+                      <li
+                        class="mt-1.5 leading-normal text-gray-700 text-md font-semibold p-2"
+                      >
+                        <i class="fa-solid fa-trophy fa-xl pr-2"></i>
+                        Building a Company<br />
+                      </li>
+                      <li
+                        class="mt-1.5 leading-normal text-gray-700 text-md font-semibold p-2"
+                      >
+                        <i class="fa-solid fa-trophy fa-xl pr-2"></i>
+                        Zurich Marathon Finisher
+                      </li>
+                    </ul>
+                  </section>
+                </div>
+              </section>
+
+              <!-- Strenghts -->
+              <section class="mt-8 first:mt-0">
+                <div class="break-inside-avoid">
+                  <h2
+                    class="mb-4 font-bold tracking-widest text-sm2 text-gray-550"
+                  >
+                    STRENGTHS
+                  </h2>
+
+                  <section class="mb-4.5 break-inside-avoid">
+                    <ul
+                      class="flex flex-wrap text-md leading-relaxed -mr-1.6 -mb-1.6"
+                    >
+                      <li
+                        class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
+                      >
+                        Product Mgtm.
+                      </li>
+                      <li
+                        class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
+                      >
+                        Lean UX
+                      </li>
+                      <li
+                        class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
+                      >
+                        Agile
+                      </li>
+                      <li
+                        class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
+                      >
+                        Project Mgtm.
+                      </li>
+                      <li
+                        class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
+                      >
+                        Systems Design
+                      </li>
+                      <li
+                        class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
+                      >
+                        MLOps
+                      </li>
+                      <li
+                        class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
+                      >
+                        Machine Learning
+                      </li>
+                      <li
+                        class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
+                      >
+                        Deep Learning
+                      </li>
+                      <li
+                        class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
+                      >
+                        NLP
+                      </li>
+                      <li
+                        class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
+                      >
+                        CV
+                      </li>
+                      <li
+                        class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
+                      >
+                        Cloud
+                      </li>
+                      <li
+                        class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
+                      >
+                        Data Engineering
+                      </li>
+                      <li
+                        class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
+                      >
+                        DevOps
+                      </li>
+                      <li
+                        class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
+                      >
+                        CI/CD
+                      </li>
+                      <li
+                        class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
+                      >
+                        Web. Dev.
+                      </li>
+                    </ul>
+                  </section>
+                </div>
+              </section>
+
+              <!-- LANGUAGES -->
+              <section class="mt-8 first:mt-0">
+                <div class="break-inside-avoid">
+                  <h2
+                    class="mb-4 font-bold tracking-widest text-sm2 text-gray-550"
+                  >
+                    LANGUAGES
+                  </h2>
+
+                  <section class="mb-4.5 break-inside-avoid flex space-x-20">
+                    <ul class="list-inside pr-7">
+                      <li class="mt-1.5 leading-normal text-gray-700 text-md">
+                        Dutch
+                      </li>
+                      <li class="mt-1.5 leading-normal text-gray-700 text-md">
+                        English
+                      </li>
+                      <li class="mt-1.5 leading-normal text-gray-700 text-md">
+                        German
+                      </li>
+                    </ul>
+                    <ul class="list-inside">
+                      <li class="mt-1.5 leading-normal text-gray-700 text-md">
+                        Native
+                      </li>
+                      <li class="mt-1.5 leading-normal text-gray-700 text-md">
+                        C2
+                      </li>
+                      <li class="mt-1.5 leading-normal text-gray-700 text-md">
+                        B1
+                      </li>
+                    </ul>
+                  </section>
+                </div>
+              </section>
+
+              <!-- CONTACT -->
+              <section class="mt-8 first:mt-0">
+                <div class="break-inside-avoid">
+                  <h2
+                    class="mb-4 font-bold tracking-widest text-sm2 text-gray-550"
+                  >
+                    CONTACT
+                  </h2>
+
+                  <section class="mb-4.5 break-inside-avoid">
+                    <ul class="list-inside pr-7">
+                      <li class="mt-1.5 leading-normal text-gray-700 text-md">
+                        <!-- TODO: add icons -->
+                        <a
+                          href="https://linkedin.com/in/nielsuitterdijk"
+                          class="group"
+                        >
+                          <i class="fa-brands fa-linkedin pr-2"></i>
+                          nielsuitterdijk
+                          <span
+                            class="inline-block text-gray-550 font-normal group-hover:text-gray-700 transition duration-100 ease-in"
+                            >↗</span
+                          >
+                        </a>
+                      </li>
+                      <li class="mt-1.5 leading-normal text-gray-700 text-md">
+                        <a href="https://github.com/nielsuit227" class="group">
+                          <i class="fa-brands fa-github pr-2"></i>
+                          nielsuit227
+                          <span
+                            class="inline-block text-gray-550 font-normal group-hover:text-gray-700 transition duration-100 ease-in"
+                            >↗</span
+                          >
+                        </a>
+                      </li>
+                      <li class="mt-1.5 leading-normal text-gray-700 text-md">
+                        <i class="fa-solid fa-location-dot pr-2"></i>
+                        8048 Zurich, Switzerland
+                      </li>
+                      <li class="mt-1.5 leading-normal text-gray-700 text-md">
+                        <i class="fa-solid fa-envelope pr-2"></i>
+                        niels.uit@gmail.com
+                      </li>
+                      <li class="mt-1.5 leading-normal text-gray-700 text-md">
+                        <i class="fa-solid fa-phone pr-2"></i>
+                        (+31) 6 250 75 273
+                      </li>
+                    </ul>
+                  </section>
+                </div>
+              </section>
+            </div>
+
+            <!-- RIGHT COLUMN -->
+            <div class="flex-1 p-4 col-span-2">
+              <!-- EXPERIENCE -->
+              <section class="mt-8 first:mt-0">
+                <h2
+                  class="mb-4 font-bold tracking-widest text-sm2 text-gray-550"
+                >
+                  EXPERIENCE
+                </h2>
+
+                <!-- AMPLO -->
+                <section class="mb-4.5 break-inside-avoid">
+                  <header>
+                    <h3
+                      class="text-lg font-semibold text-gray-700 leading-snugish"
+                    >
+                      Co-Founder & CTO
+                    </h3>
+                    <p class="leading-normal text-md text-gray-650">
+                      Mar 2020 – Mar 2023 | Amplo AG | Zurich
+                    </p>
+                  </header>
+                  <ul class="list-disc pl-4">
+                    <li>
+                      Built the company culture, vision, team and product from
+                      the ground up.
+                    </li>
+                    <li>
+                      Raised 1.6M CHF from angels and VCs, growing the team to 8
+                      members.
+                    </li>
+                    <li>
+                      Enabled dynamic sales planning, energy production
+                      forecasting, material detection. The main product reduced
+                      MTTD times by up to 90%.
+                    </li>
+                    <li>
+                      Implemented Lean UX and agile principles with Jira and
+                      Github to manage development and turn discovery insights
+                      into user stories.
+                    </li>
+                    <li>
+                      Developed automated ML training and serving, using
+                      Databricks and ClearML, with automated tests for software,
+                      data and models.
+                    </li>
+                    <li>
+                      Used Kubernetes to serve the various ML, NLP and CV
+                      models.
+                    </li>
+                    <li>
+                      Developed various web applications with integrated ML
+                      functionality on GCP, Azure, and on-premise.
+                    </li>
+                  </ul>
+                </section>
+
+                <!-- UPWORK -->
+                <section class="mb-4.5 break-inside-avoid">
+                  <header>
+                    <h3
+                      class="text-lg font-semibold text-gray-700 leading-snugish"
+                    >
+                      Machine Learning Freelancer
+                    </h3>
+                    <p class="leading-normal text-md text-gray-650">
+                      Oct 2019 – Aug 2020 | Upwork | Remote
+                    </p>
+                  </header>
+                  <ul class="list-disc pl-4">
+                    <li>Machine Learning and Optimization expert</li>
+                    <li>
+                      Acquired ‘Rising Talent’ status, with a rating of 4.92 /
+                      5.0
+                    </li>
+                  </ul>
+                </section>
+
+                <!-- TRITIUM -->
+                <section class="mb-4.5 break-inside-avoid">
+                  <header>
+                    <h3
+                      class="text-lg font-semibold text-gray-700 leading-snugish"
+                    >
+                      Machine Learning Intern
+                    </h3>
+                    <p class="leading-normal text-md text-gray-650">
+                      Feb 2019 – Aug 2019 | Tritium Ltd. Pty. | Brisbane,
+                      Australia
+                    </p>
+                  </header>
+                  <ul class="list-disc pl-4">
+                    <li>
+                      Improved successful charge rate by ±5% by detecting the
+                      two most common failures two months ahead of time
+                    </li>
+                    <li>
+                      Analysed data, developed models and deployed the service
+                      in AWS lambda, connected with telemetry.
+                    </li>
+                    <li>
+                      Used online convex optimisation theory to solve the
+                      Wasserstein regulated SVM.
+                    </li>
+                  </ul>
+                </section>
+
+                <!-- DELFT - TA -->
+                <section class="mb-4.5 break-inside-avoid">
+                  <header>
+                    <h3
+                      class="text-lg font-semibold text-gray-700 leading-snugish"
+                    >
+                      Teach Assistent Advanced Dynamics
+                    </h3>
+                    <p class="leading-normal text-md text-gray-650">
+                      Aug 2015 – Feb 2016 | Technical University of Delft |
+                      Delft, Netherlands
+                    </p>
+                  </header>
+                  <ul class="list-disc pl-4"></ul>
+                </section>
+              </section>
+
+              <!-- EDUCATION -->
+              <section class="mt-8 first:mt-0">
+                <h2
+                  class="mb-4 font-bold tracking-widest text-sm2 text-gray-550"
+                >
+                  EDUCATION
+                </h2>
+
+                <section class="mb-4.5 break-inside-avoid">
+                  <header>
+                    <h3
+                      class="text-lg font-semibold text-gray-700 leading-snugish"
+                    >
+                      MSc Systems & Control
+                    </h3>
+                    <p class="leading-normal text-md text-gray-650">
+                      Sep 2017 – Feb 2020 | Technical University of Delft
+                    </p>
+                  </header>
+                  <ul class="list-disc pl-4">
+                    <li>
+                      MSc thesis for Tritium (DC Fast Charger OEM, 5.000
+                      globally). (Grade 8.5 / 10.0)
+                    </li>
+                    <li>
+                      Electives: Machine Learning, Pattern Recognition, Dynamic
+                      Programming, Stochastic Control, Robust Control, Adaptive
+                      & Predictive Control, Knowledge Based Control, Networked &
+                      Distributed Control and Control of Electric Drives.
+                    </li>
+                  </ul>
+                </section>
+
+                <section class="mb-4.5 break-inside-avoid">
+                  <header>
+                    <h3
+                      class="text-lg font-semibold text-gray-700 leading-snugish"
+                    >
+                      BSc Mechanical Engineering
+                    </h3>
+                    <p class="leading-normal text-md text-gray-650">
+                      Sep 2013 – Jul 2016 | Technical University of Delft
+                    </p>
+                  </header>
+                </section>
+              </section>
+            </div>
+          </div>
         </div>
-        <h1 class="text-2xl font-semibold text-gray-750 pb-px">
-          Marko Marković
-        </h1>
-      </header>
-      <!-- end Name -->
+        <!-- end Column -->
+      </div>
+      <!-- end Page -->
 
-      <!-- Column -->
-      <div class="md:col-count-2 print:col-count-2 col-gap-md md:h-letter-col print:h-letter-col col-fill-auto">
+      <!-- Page -->
+      <div class="mx-auto page max-w-a4 h-a4 bg-gray-100">
+        <div class="grid grid-cols-3 col-gap-md col-fill-auto h-full w-full">
+          <!-- LEFT COLUMN -->
+          <div class="flex-1 p-10 col-span-2">
+            <!-- EXTRA CURRICULAR -->
+            <section class="mt-8 first:mt-0">
+              <!-- To keep in the same column -->
+              <div class="break-inside-avoid">
+                <h2
+                  class="mb-4 font-bold tracking-widest text-sm2 text-gray-550"
+                >
+                  EXTRA-CURRICULAR
+                </h2>
 
-        <section class="mt-8 first:mt-0">
+                <!-- FSTD -->
+                <section class="mb-4.5 break-inside-avoid">
+                  <header>
+                    <h3
+                      class="text-lg font-semibold text-gray-700 leading-snugish"
+                    >
+                      Powertrain Dep. Manager
+                    </h3>
+                    <p class="leading-normal text-md text-gray-650">
+                      Jul 2016 – Aug 2017 | Formula Student Team Delft
+                    </p>
+                  </header>
+                  <ul class="list-disc pl-4">
+                    <li>
+                      Competed in the prestigious annual student engineering
+                      competition, Formula Student, designing, building, testing
+                      and racing an open-wheel single-seater racing car.
+                    </li>
+                    <li>
+                      Our team of 80 students in 8 departments built the full
+                      electric DUT17 with 4 wheel in-hub motors, 120kW of power,
+                      7kWh battery and weighing only 170kg, achieving 2nd place
+                      in FS Hungary, 4th in FS Spain.
+                    </li>
+                    <li>
+                      As manager of 11 engineers in the powertrain department, I
+                      was responsible for battery, inverter and motor design,
+                      manufacturing and assembly, as well as top-level design,
+                      sponsor acquisition, budgeting and planning.
+                    </li>
+                    <li>
+                      Initiated multi-year projects to develop in-house SiC
+                      inverters and electric motors, encompassing electric,
+                      magnetic and thermal design of the inverter PCB, gate
+                      driver circuitry and electric motor, as well as control
+                      algorithms of the MCU.
+                    </li>
+                  </ul>
+                </section>
 
-          <!-- To keep in the same column -->
-          <div class="break-inside-avoid">
+                <!-- FSTD -->
+                <section class="mb-4.5 break-inside-avoid">
+                  <header>
+                    <h3
+                      class="text-lg font-semibold text-gray-700 leading-snugish"
+                    >
+                      Board - Secretary
+                    </h3>
+                    <p class="leading-normal text-md text-gray-650">
+                      Sep 2016 – Aug 2017 | SRC Thor | Delft
+                    </p>
+                  </header>
+                  Responsible for all club communication and administration of
+                  Delft's biggest student rugby club.
+                </section>
 
-            <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal">
-              ABOUT ME
-            </h2>
+                <!-- FSTD -->
+                <section class="mb-4.5 break-inside-avoid">
+                  <header>
+                    <h3
+                      class="text-lg font-semibold text-gray-700 leading-snugish"
+                    >
+                      Exchange Minor
+                    </h3>
+                    <p class="leading-normal text-md text-gray-650">
+                      Aug 2015 – Feb 2016 | Lund University | Lund, Sweden
+                    </p>
+                  </header>
+                  Free selection of courses: Advanced Mechatronics, Advanced
+                  Robotics, Computer Based Design, Transmission Design.
+                </section>
 
-            <section class="mb-4.5 break-inside-avoid">
-              <header>
-                <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                  User Interface Designer
-                </h3>
-                <p class="leading-normal text-md text-gray-650">
-                  Since 2010
-                </p>
-              </header>
-              <p class="mt-2.1 text-md text-gray-700 leading-normal">
-                Minimal and formal résumé website template for print, mo&shy;bile, and desktop. The proportions are
-                the same on the screen and paper. Built with amazing <a class="hover:bg-gray-150 rounded-lg transition ease-in duration-100"
-                  href="https://tailwindcss.com/">Tailwind CSS&nbsp;°</a>.
-              </p>
+                <!-- FSTD -->
+                <section class="mb-4.5 break-inside-avoid">
+                  <header>
+                    <h3
+                      class="text-lg font-semibold text-gray-700 leading-snugish"
+                    >
+                      Honours Programme Summer Exchange
+                    </h3>
+                    <p class="leading-normal text-md text-gray-650">
+                      Jul 2015 | Zhejiang University | Hangzhou, China
+                    </p>
+                    <ul class="list-disc pl-4">
+                      <li>
+                        Built an autonomous blimp with robotics master students
+                        from Zhejiang University.
+                      </li>
+                      <li>
+                        Excursions to an automotive and an escalator
+                        manufacturing site.
+                      </li>
+                    </ul>
+                  </header>
+                </section>
+
+                <!-- FSTD -->
+                <section class="mb-4.5 break-inside-avoid">
+                  <header>
+                    <h3
+                      class="text-lg font-semibold text-gray-700 leading-snugish"
+                    >
+                      BSc Honours Programme
+                    </h3>
+                    <p class="leading-normal text-md text-gray-650">
+                      Sep 2014 - Aug 2015 | Technical University of Delft
+                    </p>
+                    <ul class="list-disc pl-4">
+                      <li>Elected from the top 5% students.</li>
+                      <li>
+                        Additional 20ECTS consisting of courses, excursions and
+                        projects.
+                      </li>
+                      <li>
+                        Multi-disciplinary project building a flying version of
+                        TU Delft's Zebro.
+                      </li>
+                      <li>Courses: Design Thinking, Personal Leadership.</li>
+                    </ul>
+                  </header>
+                </section>
+              </div>
             </section>
-
           </div>
 
-          <section class="mb-4.5 break-inside-avoid">
-            <header>
-              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                Front-End Developer
-              </h3>
-              <p class="leading-normal text-md text-gray-650">
-                Since 2013
-              </p>
-            </header>
-            <p class="mt-2.1 text-md text-gray-700 leading-normal">
-              “docs/index.html” is the main content file. By copying HTML: add pages, sec&shy;tions, subsection, and
-              other parts.
-            </p>
-            <p class="mt-2.1 text-md text-gray-700 leading-normal">
-              <span class="font-medium text-gray-600 print:text-black">Important:</span> Too much content on one page
-              will break the page in the form of additional columns.
-            </p>
-          </section>
+          <!-- RIGHT COLUMN -->
+          <div class="flex-1 p-10 bg-gray-400">
+            <!-- SKILLS -->
+            <section class="mt-8 first:mt-0">
+              <!-- To keep in the same column -->
+              <div class="break-inside-avoid">
+                <h2
+                  class="mb-4 font-bold tracking-widest text-sm2 text-gray-550"
+                >
+                  SKILLS
+                </h2>
 
-        </section>
+                <div class="flex flex-row items-center justify-between w-full">
+                  Python
+                  <div class="flex flex-row">
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-solid fa-circle pr-1"></i>
+                  </div>
+                </div>
+                <div class="flex flex-row items-center justify-between w-full">
+                  SQL
+                  <div class="flex flex-row">
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-regular fa-circle pr-1"></i>
+                  </div>
+                </div>
+                <div class="flex flex-row items-center justify-between w-full">
+                  Typescript
+                  <div class="flex flex-row">
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-solid fa-circle pr-1"></i>
+                  </div>
+                </div>
+                <div class="flex flex-row items-center justify-between w-full">
+                  Java
+                  <div class="flex flex-row">
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-regular fa-circle pr-1"></i>
+                    <i class="fa-regular fa-circle pr-1"></i>
+                    <i class="fa-regular fa-circle pr-1"></i>
+                  </div>
+                </div>
+                <div class="my-2" />
 
-        <section class="mt-8 first:mt-0">
+                <div class="flex flex-row items-center justify-between w-full">
+                  Kubernetes
+                  <div class="flex flex-row">
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-regular fa-circle pr-1"></i>
+                  </div>
+                </div>
+                <div class="flex flex-row items-center justify-between w-full">
+                  Docker
+                  <div class="flex flex-row">
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-regular fa-circle pr-1"></i>
+                  </div>
+                </div>
+                <div class="flex flex-row items-center justify-between w-full">
+                  Databricks
+                  <div class="flex flex-row">
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-regular fa-circle pr-1"></i>
+                    <i class="fa-regular fa-circle pr-1"></i>
+                  </div>
+                </div>
+                <div class="flex flex-row items-center justify-between w-full">
+                  Apache Beam
+                  <div class="flex flex-row">
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-regular fa-circle pr-1"></i>
+                    <i class="fa-regular fa-circle pr-1"></i>
+                  </div>
+                </div>
+                <div class="flex flex-row items-center justify-between w-full">
+                  Rabbit MQ
+                  <div class="flex flex-row">
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-regular fa-circle pr-1"></i>
+                    <i class="fa-regular fa-circle pr-1"></i>
+                  </div>
+                </div>
+                <div class="flex flex-row items-center justify-between w-full">
+                  Airflow
+                  <div class="flex flex-row">
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-regular fa-circle pr-1"></i>
+                    <i class="fa-regular fa-circle pr-1"></i>
+                    <i class="fa-regular fa-circle pr-1"></i>
+                  </div>
+                </div>
+                <div class="flex flex-row items-center justify-between w-full">
+                  PySpark
+                  <div class="flex flex-row">
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-regular fa-circle pr-1"></i>
+                    <i class="fa-regular fa-circle pr-1"></i>
+                    <i class="fa-regular fa-circle pr-1"></i>
+                  </div>
+                </div>
 
-          <!-- To keep in the same column -->
-          <div class="break-inside-avoid">
+                <div class="my-2" />
 
-            <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal">
-              EXPERIENCE
-            </h2>
+                <div class="flex flex-row items-center justify-between w-full">
+                  Postgres
+                  <div class="flex flex-row">
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-regular fa-circle pr-1"></i>
+                  </div>
+                </div>
+                <div class="flex flex-row items-center justify-between w-full">
+                  Timescale
+                  <div class="flex flex-row">
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-regular fa-circle pr-1"></i>
+                  </div>
+                </div>
+                <div class="flex flex-row items-center justify-between w-full">
+                  InfluxDB
+                  <div class="flex flex-row">
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-regular fa-circle pr-1"></i>
+                  </div>
+                </div>
+                <div class="flex flex-row items-center justify-between w-full">
+                  BigQuery
+                  <div class="flex flex-row">
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-regular fa-circle pr-1"></i>
+                    <i class="fa-regular fa-circle pr-1"></i>
+                  </div>
+                </div>
+                <div class="flex flex-row items-center justify-between w-full">
+                  MongoDB
+                  <div class="flex flex-row">
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-regular fa-circle pr-1"></i>
+                    <i class="fa-regular fa-circle pr-1"></i>
+                  </div>
+                </div>
 
-            <section class="mb-4.5 break-inside-avoid">
-              <header>
-                <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                  WebPraktikos Inc.
-                </h3>
-                <p class="leading-normal text-md text-gray-650">
-                  Jun 2018 – Present | Web Developer
-                </p>
-              </header>
-              <p class="mt-2.1 text-md text-gray-700 leading-normal">
-                Built doner pork chop &bull; Served salmon, cream soft cheese, and brisket &bull; Acted 55% pork chop
-                &bull; Filled burgdoggen & frankfurter strip steak with 90% burger patties and broth
-              </p>
-            </section>
+                <div class="my-2"></div>
 
-          </div>
+                <div class="flex flex-row items-center justify-between w-full">
+                  Scikit-Learn
+                  <div class="flex flex-row">
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-solid fa-circle pr-1"></i>
+                  </div>
+                </div>
+                <div class="flex flex-row items-center justify-between w-full">
+                  CatBoost
+                  <div class="flex flex-row">
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-solid fa-circle pr-1"></i>
+                  </div>
+                </div>
+                <div class="flex flex-row items-center justify-between w-full">
+                  Pandas
+                  <div class="flex flex-row">
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-solid fa-circle pr-1"></i>
+                  </div>
+                </div>
+                <div class="flex flex-row items-center justify-between w-full">
+                  PyTorch
+                  <div class="flex flex-row">
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-regular fa-circle pr-1"></i>
+                  </div>
+                </div>
+                <div class="flex flex-row items-center justify-between w-full">
+                  SpaCy
+                  <div class="flex flex-row">
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-regular fa-circle pr-1"></i>
+                    <i class="fa-regular fa-circle pr-1"></i>
+                  </div>
+                </div>
+                <div class="flex flex-row items-center justify-between w-full">
+                  OpenCV
+                  <div class="flex flex-row">
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-regular fa-circle pr-1"></i>
+                    <i class="fa-regular fa-circle pr-1"></i>
+                  </div>
+                </div>
+                <div class="flex flex-row items-center justify-between w-full">
+                  TensorFlow
+                  <div class="flex flex-row">
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-regular fa-circle pr-1"></i>
+                    <i class="fa-regular fa-circle pr-1"></i>
+                    <i class="fa-regular fa-circle pr-1"></i>
+                  </div>
+                </div>
+                <div class="flex flex-row items-center justify-between w-full">
+                  Statsmodels
+                  <div class="flex flex-row">
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-regular fa-circle pr-1"></i>
+                  </div>
+                </div>
+                <div class="flex flex-row items-center justify-between w-full">
+                  HuggingFace
+                  <div class="flex flex-row">
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-regular fa-circle pr-1"></i>
+                  </div>
+                </div>
 
-          <section class="mb-4.5 break-inside-avoid">
-            <header>
-              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                Mammoth GmbH
-              </h3>
-              <p class="leading-normal text-md text-gray-650">
-                Feb 2017 – Apr 2018 | Android Developer
-              </p>
-            </header>
-            <ul class="">
+                <div class="my-2"></div>
 
-              <li class="mt-2.1 text-md text-gray-700 leading-normal">
-                <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
-                Cooked shrimps for 2 to 3 minutes per side, or until opaque; then, transfered to a serving dish with limon
-              </li>
-              <li class="mt-2.1 text-md text-gray-700 leading-normal">
-                <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
-                Roasted a pig, turning frequently, until meat reached 160°F in the thickest part of the shoulder or thigh
-              </li>
-            </ul>
-          </section>
+                <div class="flex flex-row items-center justify-between w-full">
+                  Git
+                  <div class="flex flex-row">
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-regular fa-circle pr-1"></i>
+                  </div>
+                </div>
+                <div class="flex flex-row items-center justify-between w-full">
+                  Jenkins
+                  <div class="flex flex-row">
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-regular fa-circle pr-1"></i>
+                    <i class="fa-regular fa-circle pr-1"></i>
+                  </div>
+                </div>
+                <div class="flex flex-row items-center justify-between w-full">
+                  Terraform
+                  <div class="flex flex-row">
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-regular fa-circle pr-1"></i>
+                    <i class="fa-regular fa-circle pr-1"></i>
+                    <i class="fa-regular fa-circle pr-1"></i>
+                  </div>
+                </div>
+                <div class="flex flex-row items-center justify-between w-full">
+                  Github Actions
+                  <div class="flex flex-row">
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-regular fa-circle pr-1"></i>
+                  </div>
+                </div>
+                <div class="flex flex-row items-center justify-between w-full">
+                  ARM Templates
+                  <div class="flex flex-row">
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-solid fa-circle pr-1"></i>
+                    <i class="fa-regular fa-circle pr-1"></i>
+                    <i class="fa-regular fa-circle pr-1"></i>
+                    <i class="fa-regular fa-circle pr-1"></i>
+                  </div>
+                </div>
 
-          <section class="mb-4.5 break-inside-avoid">
-            <header>
-              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                Exquisite Systems d.o.o.
-              </h3>
-              <p class="leading-normal text-md text-gray-650">
-                May 2015 – Dec 2016 | Software QA Specialist
-              </p>
-            </header>
-            <ul class="">
-              <li class="mt-2.1 text-md text-gray-700 leading-normal">
-                <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
-                Made stockfish, which is unsalted fish, usully cod, dried by cold air and wind on wooden racks on the foreshore
-              </li>
-              <li class="mt-2.1 text-md text-gray-700 leading-normal">
-                <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
-                Preserved meat without salt by removing fat, cutting it into very thin strips and drying it in the sun or by a fire.
-              </li>
-            </ul>
-          </section>
-
-        </section>
-
-        <section class="mt-8 first:mt-0">
-
-          <!-- To keep in the same column -->
-          <div class="break-inside-avoid">
-
-            <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal">
-              EDUCATION
-            </h2>
-
-            <section class="mb-4.5 break-inside-avoid">
-              <header>
-                <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                  Graz University of Technology
-                </h3>
-                <p class="leading-normal text-md text-gray-650">
-                  2014 – 2015 | Master's Degree in Chemistry
-                </p>
-              </header>
-            </section>
-
-          </div>
-
-          <section class="mb-4.5 break-inside-avoid">
-            <header>
-              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                Vienna University of Technology
-              </h3>
-              <p class="leading-normal text-md text-gray-650">
-                2010 – 2013 | Bachelor’s Degree in Biology
-              </p>
-            </header>
-          </section>
-
-          <section class="mb-4.5 break-inside-avoid">
-            <header>
-              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                Vienna University of Technology
-              </h3>
-              <p class="leading-normal text-md text-gray-650">
-                2010 – 2013| Bachelor’s Degree in Chemistry
-              </p>
-            </header>
-          </section>
-        </section>
-
-        <section class="mt-8 first:mt-0">
-
-          <!-- To keep in the same column -->
-          <div class="break-inside-avoid">
-
-            <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal">
-              PROJECTS
-            </h2>
-
-            <section class="mb-4.5 break-inside-avoid">
-              <header>
-                <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                  <a href="https://github.com/WebPraktikos/universal-resume" class="group">
-                    Universal Resume
-                    <span class="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in">↗</span>
-                  </a>
-                </h3>
-                <p class="leading-normal text-md text-gray-650">
-                  Since 2019 | HTML CSS
-                </p>
-              </header>
-              <p class="mt-2.1 text-md text-gray-700 leading-normal">
-                Good design is as little design as possible. Less, but better — because it concentrates on the essential
-                aspects, and the pro&shy;ducts are not burdened with non-essentials.
-              </p>
-            </section>
-
-          </div>
-
-          <section class="mb-4.5 break-inside-avoid">
-            <header>
-              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                <a href="https://github.com/WebPraktikos/tailwindcss-rich-docs" class="group">
-                  tailwindcss-rich-docs
-                  <span
-                    class="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in">↗</span>
-                </a>
-              </h3>
-              <p class="leading-normal text-md text-gray-650">
-                2017 | JavaScript
-              </p>
-            </header>
-            <p class="mt-2.1 text-md text-gray-700 leading-normal">
-              Good design is long-lasting. It avoids being fashionable and therefore never appears antiquated.<br>
-              Good design is honest. It does not make a product more innovative, powerful or valuable than it really is.
-            </p>
-          </section>
-
-          <section class="mb-4.5 break-inside-avoid">
-            <header>
-              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                Third One
-              </h3>
-              <p class="leading-normal text-md text-gray-650">
-                2013 – 2014 | Vue
-              </p>
-            </header>
-            <p class="mt-2.1 text-md text-gray-700 leading-normal">
-              Good design is innovative. Technological development is always offering new opportunities for innovative
-              design.
-            </p>
-          </section>
-
-          <section class="mb-4.5 break-inside-avoid">
-            <header>
-              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                Fantastic Project
-              </h3>
-              <p class="leading-normal text-md text-gray-650">
-                2012 | JavaScript
-              </p>
-            </header>
-            <p class="mt-2.1 text-md text-gray-700 leading-normal">
-              Strip steak tail capicola alcatra ground round tenderloin ar. Venison tri-tip porchetta, brisket
-              tenderloin pig beef.
-            </p>
-          </section>
-
-        </section>
-
-        <section class="mt-8 first:mt-0">
-
-          <!-- To keep in the same column -->
-          <div class="break-inside-avoid">
-
-            <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal">
-              SKILLS
-            </h2>
-
-            <section class="mb-4.5 break-inside-avoid">
-              <header>
-                <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                  JavaScript
-                </h3>
-                <p class="leading-normal text-md text-gray-650">
-                  Middle Level
-                </p>
-              </header>
-              <p class="mt-2.1 text-md text-gray-700 leading-normal">
-                Good parts: pure function, higher-order functions, factory functions, composition. Bad parts:
-                inheritance, this, new.
-              </p>
-              <div class="my-3.2 last:pb-1.5">
-                <ul class="flex flex-wrap text-md leading-relaxed -mr-1.6 -mb-1.6">
-                  <li
-                    class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                    ES6
-                  </li>
-                  <li
-                    class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                    Vue
-                  </li>
-                  <li
-                    class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                    Functional Programming
-                  </li>
-                  <li
-                    class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                    Node
-                  </li>
-                </ul>
+                <div class="my-2"></div>
               </div>
             </section>
 
-          </div>
-
-          <section class="mb-4.5 break-inside-avoid">
-            <header>
-              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                Other
-              </h3>
-            </header>
-            <div class="my-3.2 last:pb-1.5">
-              <ul class="flex flex-wrap text-md leading-relaxed -mr-1.6 -mb-1.6">
-                <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                  CSS
-                </li>
-                <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                  Rust
-                </li>
-                <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                  Git
-                </li>
-                <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                  Go
-                </li>
-                <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                  Linux Server
-                </li>
-                <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                  UI Design
-                </li>
-                <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                  Photoshop
-                </li>
-                <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                  Illustrator
-                </li>
-                <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                  Figma
-                </li>
-                <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                  Typography
-                </li>
-              </ul>
-            </div>
-          </section>
-
-        </section>
-
-        <section class="mt-8 first:mt-0">
-
-          <!-- To keep in the same column -->
-          <div class="break-inside-avoid">
-
-            <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal">
-              CONTACT
-            </h2>
-
-            <section class="mb-4.5 break-inside-avoid">
-              <ul class="list-inside pr-7">
-                <li class="mt-1.5 leading-normal text-gray-700 text-md">
-                  <a href="//webpraktikos.com" class="group">
-                    webpraktikos.com
-                    <span class="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in">↗</span>
-                  </a>
-                </li>
-                <li class="mt-1.5 leading-normal text-gray-700 text-md">
-                  <a href="//twitter.com/webpraktikos" class="group">
-                    twitter.com/webpraktikos
-                    <span class="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in">↗</span>
-                  </a>
-                </li>
-                <li class="mt-1.5 leading-normal text-gray-700 text-md">
-                  1020 Wien, Austria
-                </li>
-                <li class="mt-1.5 leading-normal text-gray-700 text-md">
-                  hi@webpraktikos.com
-                </li>
-                <li class="mt-1.5 leading-normal text-gray-700 text-md">
-                  (+43) 0699 77 33 77 55
-                </li>
-              </ul>
-            </section>
-
-          </div>
-
-        </section>
-
-      </div>
-      <!-- end Column -->
-
-    </div>
-    <!-- end Page -->
-
-    <!-- Page -->
-    <div class="p-6 mx-auto page max-w-2xl print:max-w-letter md:max-w-letter md:h-letter xsm:p-8 sm:p-9 md:p-16 print:mt-16 print:bg-white bg-gray-100">
-
-      <!-- Column -->
-      <div class="md:col-count-2 print:col-count-2 col-gap-md md:h-letter-col-full print:h-letter-col-full col-fill-auto">
-
-        <section class="mt-8 first:mt-0">
-
-          <!-- To keep in the same column -->
-          <div class="break-inside-avoid">
-
-            <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal">
-              ABOUT ME
-            </h2>
-
-            <section class="mb-4.5 break-inside-avoid">
-              <header>
-                <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                  User Interface Designer
-                </h3>
-                <p class="leading-normal text-md text-gray-650">
-                  Since 2010
-                </p>
-              </header>
-              <p class="mt-2.1 text-md text-gray-700 leading-normal">
-                Minimal and formal résumé website template for print, mo&shy;bile, and desktop. The proportions are
-                the same on the screen and paper. Built with amazing <a class="hover:bg-gray-150 rounded-lg transition ease-in duration-100"
-                  href="https://tailwindcss.com/">Tailwind CSS&nbsp;°</a>.
-              </p>
-            </section>
-
-          </div>
-
-          <section class="mb-4.5 break-inside-avoid">
-            <header>
-              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                Front-End Developer
-              </h3>
-              <p class="leading-normal text-md text-gray-650">
-                Since 2013
-              </p>
-            </header>
-            <p class="mt-2.1 text-md text-gray-700 leading-normal">
-              “docs/index.html” is the main content file. By copying HTML: add pages, sec&shy;tions, subsection, and
-              other parts.
-            </p>
-            <p class="mt-2.1 text-md text-gray-700 leading-normal">
-              <span class="font-medium text-gray-600 print:text-black">Important:</span> Too much content on one page
-              will break the page
-              in the form of additional columns.
-            </p>
-            <p class="mt-2.1 text-md text-gray-700 leading-normal">
-              If you want to change CSS in the classical way, add a class to the HTML element and write CSS inside “tailwind.css.”
-            </p>
-          </section>
-
-        </section>
-
-        <section class="mt-8 first:mt-0">
-
-          <!-- To keep in the same column -->
-          <div class="break-inside-avoid">
-
-            <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal">
-              EXPERIENCE
-            </h2>
-
-            <section class="mb-4.5 break-inside-avoid">
-              <header>
-                <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                  WebPraktikos Inc.
-                </h3>
-                <p class="leading-normal text-md text-gray-650">
-                  Jun 2018 – Present | Web Developer
-                </p>
-              </header>
-              <p class="mt-2.1 text-md text-gray-700 leading-normal">
-                Built doner pork chop &bull; Served salmon, cream soft cheese, and brisket &bull; Acted 55% pork chop
-                &bull; Filled burgdoggen & frankfurter strip steak with 90% burger patties and broth
-              </p>
-            </section>
-
-          </div>
-
-          <section class="mb-4.5 break-inside-avoid">
-            <header>
-              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                Mammoth GmbH
-              </h3>
-              <p class="leading-normal text-md text-gray-650">
-                Feb 2017 – Apr 2018 | Android Developer
-              </p>
-            </header>
-            <ul class="">
-              <li class="mt-2.1 text-md text-gray-700 leading-normal">
-                <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
-                Cooked shrimps for 2 to 3 minutes per side, or until opaque; then, transfered to a serving dish with limon
-              </li>
-              <li class="mt-2.1 text-md text-gray-700 leading-normal">
-                <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
-                Roasted a pig, turning frequently, until meat reached 160°F in the thickest part of the shoulder or thigh
-              </li>
-            </ul>
-          </section>
-
-          <section class="mb-4.5 break-inside-avoid">
-            <header>
-              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                Exquisite Systems d.o.o.
-              </h3>
-              <p class="leading-normal text-md text-gray-650">
-                May 2015 – Dec 2016 | Software QA Specialist
-              </p>
-            </header>
-            <ul class="">
-              <li class="mt-2.1 text-md text-gray-700 leading-normal">
-                <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
-                Made stockfish, which is unsalted fish, usully cod, dried by cold air and wind on wooden racks on the foreshore
-              </li>
-              <li class="mt-2.1 text-md text-gray-700 leading-normal">
-                <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
-                Preserved meat without salt by removing fat, cutting it into very thin strips and drying it in the sun or by a fire.
-              </li>
-              <li class="mt-2.1 text-md text-gray-700 leading-normal">
-                <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
-                Testend shrimp, crab, lobster, scallops, clams, crawfish
-              </li>
-            </ul>
-          </section>
-
-        </section>
-
-        <section class="mt-8 first:mt-0">
-
-          <!-- To keep in the same column -->
-          <div class="break-inside-avoid">
-
-            <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal">
-              EDUCATION
-            </h2>
-
-            <section class="mb-4.5 break-inside-avoid">
-              <header>
-                <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                  Graz University of Technology
-                </h3>
-                <p class="leading-normal text-md text-gray-650">
-                  2014 – 2015 | Master's Degree in Chemistry
-                </p>
-              </header>
-              <p class="mt-2.1 text-md text-gray-700 leading-normal">
-                Barbecued shrimp, broiled shrimp, shrimp kabobs
-              </p>
-            </section>
-
-          </div>
-
-          <section class="mb-4.5 break-inside-avoid">
-            <header>
-              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                Vienna University of Technology
-              </h3>
-              <p class="leading-normal text-md text-gray-650">
-                2010 – 2013 | Bachelor’s Degree in Biology
-              </p>
-            </header>
-          </section>
-
-          <section class="mb-4.5 break-inside-avoid">
-            <header>
-              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                Vienna University of Technology
-              </h3>
-              <p class="leading-normal text-md text-gray-650">
-                2010 – 2013| Bachelor’s Degree in Chemistry
-              </p>
-            </header>
-          </section>
-        </section>
-
-        <section class="mt-8 first:mt-0">
-
-          <!-- To keep in the same column -->
-          <div class="break-inside-avoid">
-
-            <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal">
-              PROJECTS
-            </h2>
-
-            <section class="mb-4.5 break-inside-avoid">
-              <header>
-                <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                  <a href="https://github.com/WebPraktikos/universal-resume" class="group">
-                    Universal Resume
-                    <span class="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in">↗</span>
-                  </a>
-                </h3>
-                <p class="leading-normal text-md text-gray-650">
-                  Since 2019 | HTML CSS
-                </p>
-              </header>
-              <p class="mt-2.1 text-md text-gray-700 leading-normal">
-                Good design is as little design as possible. Less, but better — because it concentrates on the essential
-                aspects, and the pro&shy;ducts are not burdened with non-essentials.
-              </p>
-            </section>
-
-          </div>
-
-          <section class="mb-4.5 break-inside-avoid">
-            <header>
-              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                <a href="https://github.com/WebPraktikos/tailwindcss-rich-docs" class="group">
-                  tailwindcss-rich-docs
-                  <span
-                    class="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in">↗</span>
-                </a>
-              </h3>
-              <p class="leading-normal text-md text-gray-650">
-                2017 | JavaScript
-              </p>
-            </header>
-            <p class="mt-2.1 text-md text-gray-700 leading-normal">
-              Good design is long-lasting. It avoids being fashionable and therefore never appears antiquated.
-            </p>
-            <p class="mt-2.1 text-md text-gray-700 leading-normal">
-              Good design is honest. It does not make a product more innovative, powerful or valuable than it really is.
-            </p>
-          </section>
-
-          <section class="mb-4.5 break-inside-avoid">
-            <header>
-              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                Third One
-              </h3>
-              <p class="leading-normal text-md text-gray-650">
-                2013 – 2014 | Vue
-              </p>
-            </header>
-            <p class="mt-2.1 text-md text-gray-700 leading-normal">
-              Good design is innovative. Technological development is always offering new opportunities for innovative
-              design.
-            </p>
-            <p class="mt-2.1 text-md text-gray-700 leading-normal">
-              Good design emphasizes the usefulness of a product whilst disregarding anything that could possibly detract from it.
-            </p>
-          </section>
-
-          <section class="mb-4.5 break-inside-avoid">
-            <header>
-              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                Fantastic Project
-              </h3>
-              <p class="leading-normal text-md text-gray-650">
-                2012 | JavaScript
-              </p>
-            </header>
-            <p class="mt-2.1 text-md text-gray-700 leading-normal">
-              Products fulfilling a purpose are like tools. They are neither decorative objects nor works of art. Their design should therefore be both neutral and restrained, to leave room for the user’s self-expression.
-            </p>
-          </section>
-
-        </section>
-
-        <section class="mt-8 first:mt-0">
-
-          <!-- To keep in the same column -->
-          <div class="break-inside-avoid">
-
-            <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal">
-              SKILLS
-            </h2>
-
-            <section class="mb-4.5 break-inside-avoid">
-              <header>
-                <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                  JavaScript
-                </h3>
-                <p class="leading-normal text-md text-gray-650">
-                  Middle Level
-                </p>
-              </header>
-              <p class="mt-2.1 text-md text-gray-700 leading-normal">
-                Good parts: pure function, higher-order functions, factory functions, composition. Bad parts:
-                inheritance, this, new.
-              </p>
-              <div class="my-3.2 last:pb-1.5">
-                <ul class="flex flex-wrap text-md leading-relaxed -mr-1.6 -mb-1.6">
-                  <li
-                    class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 leading-relaxed print:bg-white print:border-inset bg-gray-250">
-                    ES6
-                  </li>
-                  <li
-                    class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 leading-relaxed print:bg-white print:border-inset bg-gray-250">
-                    Vue
-                  </li>
-                  <li
-                    class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 leading-relaxed print:bg-white print:border-inset bg-gray-250">
-                    Functional Programming
-                  </li>
-                  <li
-                    class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 leading-relaxed print:bg-white print:border-inset bg-gray-250">
-                    Node
-                  </li>
+            <!-- SKILLS -->
+            <section class="mt-8 first:mt-0">
+              <!-- To keep in the same column -->
+              <div class="break-inside-avoid">
+                <h2
+                  class="mb-4 font-bold tracking-widest text-sm2 text-gray-550"
+                >
+                  HOBBIES
+                </h2>
+                <ul>
+                  <li>Go (Weiqi/Baduk)</li>
+                  <li>Running (with my dog)</li>
+                  <li>Reading</li>
+                  <li>Formula 1</li>
+                  <li>Cooking</li>
+                  <li>Hiking</li>
                 </ul>
               </div>
             </section>
-
           </div>
-
-          <section class="mb-4.5 break-inside-avoid">
-            <header>
-              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                Other
-              </h3>
-            </header>
-            <div class="my-3.2 last:pb-1.5">
-              <ul class="flex flex-wrap text-md leading-relaxed -mr-1.6 -mb-1.6">
-                <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 leading-relaxed print:bg-white print:border-inset bg-gray-250">
-                  CSS
-                </li>
-                <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 leading-relaxed print:bg-white print:border-inset bg-gray-250">
-                  Rust
-                </li>
-                <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 leading-relaxed print:bg-white print:border-inset bg-gray-250">
-                  Git
-                </li>
-                <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 leading-relaxed print:bg-white print:border-inset bg-gray-250">
-                  Go
-                </li>
-                <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 leading-relaxed print:bg-white print:border-inset bg-gray-250">
-                  Linux Server
-                </li>
-                <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 leading-relaxed print:bg-white print:border-inset bg-gray-250">
-                  UI Design
-                </li>
-                <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 leading-relaxed print:bg-white print:border-inset bg-gray-250">
-                  Photoshop
-                </li>
-                <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 leading-relaxed print:bg-white print:border-inset bg-gray-250">
-                  Illustrator
-                </li>
-                <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 leading-relaxed print:bg-white print:border-inset bg-gray-250">
-                  Figma
-                </li>
-                <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 leading-relaxed print:bg-white print:border-inset bg-gray-250">
-                  Typography
-                </li>
-              </ul>
-            </div>
-          </section>
-
-        </section>
-
-        <section class="mt-8 first:mt-0">
-
-          <!-- To keep in the same column -->
-          <div class="break-inside-avoid">
-
-            <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal">
-              CONTACT
-            </h2>
-
-            <section class="mb-4.5 break-inside-avoid">
-              <ul class="list-inside pr-7">
-                <li class="mt-1.5 leading-normal text-gray-700 text-md">
-                  <a href="//webpraktikos.com" class="group">
-                    webpraktikos.com
-                    <span class="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in">↗</span>
-                  </a>
-                </li>
-                <li class="mt-1.5 leading-normal text-gray-700 text-md">
-                  <a href="//twitter.com/webpraktikos" class="group">
-                    twitter.com/webpraktikos
-                    <span class="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in">↗</span>
-                  </a>
-                </li>
-                <li class="mt-1.5 leading-normal text-gray-700 text-md">
-                  1020 Wien, Austria
-                </li>
-                <li class="mt-1.5 leading-normal text-gray-700 text-md">
-                  hi@webpraktikos.com
-                </li>
-                <li class="mt-1.5 leading-normal text-gray-700 text-md">
-                  (+43) 0699 77 33 77 55
-                </li>
-              </ul>
-            </section>
-
-          </div>
-
-        </section>
-
+        </div>
       </div>
-      <!-- end Column -->
-
-    </div>
-    <!-- end Page -->
-
-    <!-- Page -->
-    <div class="p-6 mx-auto page max-w-2xl print:max-w-letter md:max-w-letter md:h-letter xsm:p-8 sm:p-9 md:p-16 print:mt-16 bg-white">
-
-      <!-- Column -->
-      <div class="md:col-count-2 print:col-count-2 col-gap-md md:h-letter-col-full print:h-letter-col-full col-fill-auto">
-
-        <section class="mt-8 first:mt-0">
-
-          <!-- To keep in the same column -->
-          <div class="break-inside-avoid">
-
-            <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal">
-              ABOUT ME
-            </h2>
-
-            <section class="mb-4.5 break-inside-avoid">
-              <header>
-                <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                  User Interface Designer
-                </h3>
-                <p class="leading-normal text-md text-gray-650">
-                  Since 2010
-                </p>
-              </header>
-              <p class="mt-2.1 text-md text-gray-700 leading-normal">
-                Minimal and formal résumé website template for print, mo&shy;bile, and desktop. The proportions are
-                the same on the screen and paper. Built with amazing <a class="hover:bg-gray-150 rounded-lg transition ease-in duration-100"
-                  href="https://tailwindcss.com/">Tailwind CSS&nbsp;°</a>.
-              </p>
-            </section>
-
-          </div>
-
-          <section class="mb-4.5 break-inside-avoid">
-            <header>
-              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                Front-End Developer
-              </h3>
-              <p class="leading-normal text-md text-gray-650">
-                Since 2013
-              </p>
-            </header>
-            <p class="mt-2.1 text-md text-gray-700 leading-normal">
-              “docs/index.html” is the main content file. By copying HTML: add pages, sec&shy;tions, subsection, and
-              other parts.
-            </p>
-            <p class="mt-2.1 text-md text-gray-700 leading-normal">
-              <span class="font-medium text-gray-600 print:text-black">Important:</span> Too much content on one page
-              will break the page
-              in the form of additional columns.
-            </p>
-            <p class="mt-2.1 text-md text-gray-700 leading-normal">
-              If you want to change CSS in the classical way, add a class to the HTML element and write CSS inside “tailwind.css.”
-            </p>
-          </section>
-
-        </section>
-
-        <section class="mt-8 first:mt-0">
-
-          <!-- To keep in the same column -->
-          <div class="break-inside-avoid">
-
-            <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal">
-              EXPERIENCE
-            </h2>
-
-            <section class="mb-4.5 break-inside-avoid">
-              <header>
-                <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                  WebPraktikos Inc.
-                </h3>
-                <p class="leading-normal text-md text-gray-650">
-                  Jun 2018 – Present | Web Developer
-                </p>
-              </header>
-              <p class="mt-2.1 text-md text-gray-700 leading-normal">
-                Built doner pork chop &bull; Served salmon, cream soft cheese, and brisket &bull; Acted 55% pork chop
-                &bull; Filled burgdoggen & frankfurter strip steak with 90% burger patties and broth
-              </p>
-            </section>
-
-          </div>
-
-          <section class="mb-4.5 break-inside-avoid">
-            <header>
-              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                Mammoth GmbH
-              </h3>
-              <p class="leading-normal text-md text-gray-650">
-                Feb 2017 – Apr 2018 | Android Developer
-              </p>
-            </header>
-            <ul class="">
-              <li class="mt-2.1 text-md text-gray-700 leading-normal">
-                <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
-                Cooked shrimps for 2 to 3 minutes per side, or until opaque; then, transfered to a serving dish with limon
-              </li>
-              <li class="mt-2.1 text-md text-gray-700 leading-normal">
-                <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
-                Roasted a pig, turning frequently, until meat reached 160°F in the thickest part of the shoulder or thigh
-              </li>
-            </ul>
-          </section>
-
-          <section class="mb-4.5 break-inside-avoid">
-            <header>
-              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                Exquisite Systems d.o.o.
-              </h3>
-              <p class="leading-normal text-md text-gray-650">
-                May 2015 – Dec 2016 | Software QA Specialist
-              </p>
-            </header>
-            <ul class="">
-              <li class="mt-2.1 text-md text-gray-700 leading-normal">
-                <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
-                Made stockfish, which is unsalted fish, usully cod, dried by cold air and wind on wooden racks on the foreshore
-              </li>
-              <li class="mt-2.1 text-md text-gray-700 leading-normal">
-                <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
-                Preserved meat without salt by removing fat, cutting it into very thin strips and drying it in the sun or by a fire.
-              </li>
-              <li class="mt-2.1 text-md text-gray-700 leading-normal">
-                <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
-                Testend shrimp, crab, lobster, scallops, clams, crawfish
-              </li>
-            </ul>
-          </section>
-
-        </section>
-
-        <section class="mt-8 first:mt-0">
-
-          <!-- To keep in the same column -->
-          <div class="break-inside-avoid">
-
-            <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal">
-              EDUCATION
-            </h2>
-
-            <section class="mb-4.5 break-inside-avoid">
-              <header>
-                <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                  Graz University of Technology
-                </h3>
-                <p class="leading-normal text-md text-gray-650">
-                  2014 – 2015 | Master's Degree in Chemistry
-                </p>
-              </header>
-              <p class="mt-2.1 text-md text-gray-700 leading-normal">
-                Barbecued shrimp, broiled shrimp, shrimp kabobs
-              </p>
-            </section>
-
-          </div>
-
-          <section class="mb-4.5 break-inside-avoid">
-            <header>
-              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                Vienna University of Technology
-              </h3>
-              <p class="leading-normal text-md text-gray-650">
-                2010 – 2013 | Bachelor’s Degree in Biology
-              </p>
-            </header>
-          </section>
-
-          <section class="mb-4.5 break-inside-avoid">
-            <header>
-              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                Vienna University of Technology
-              </h3>
-              <p class="leading-normal text-md text-gray-650">
-                2010 – 2013| Bachelor’s Degree in Chemistry
-              </p>
-            </header>
-          </section>
-        </section>
-
-        <section class="mt-8 first:mt-0">
-
-          <!-- To keep in the same column -->
-          <div class="break-inside-avoid">
-
-            <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal">
-              PROJECTS
-            </h2>
-
-            <section class="mb-4.5 break-inside-avoid">
-              <header>
-                <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                  <a href="https://github.com/WebPraktikos/universal-resume" class="group">
-                    Universal Resume
-                    <span class="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in">↗</span>
-                  </a>
-                </h3>
-                <p class="leading-normal text-md text-gray-650">
-                  Since 2019 | HTML CSS
-                </p>
-              </header>
-              <p class="mt-2.1 text-md text-gray-700 leading-normal">
-                Good design is as little design as possible. Less, but better — because it concentrates on the essential
-                aspects, and the pro&shy;ducts are not burdened with non-essentials.
-              </p>
-            </section>
-
-          </div>
-
-          <section class="mb-4.5 break-inside-avoid">
-            <header>
-              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                <a href="https://github.com/WebPraktikos/tailwindcss-rich-docs" class="group">
-                  tailwindcss-rich-docs
-                  <span
-                    class="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in">↗</span>
-                </a>
-              </h3>
-              <p class="leading-normal text-md text-gray-650">
-                2017 | JavaScript
-              </p>
-            </header>
-            <p class="mt-2.1 text-md text-gray-700 leading-normal">
-              Good design is long-lasting. It avoids being fashionable and therefore never appears antiquated.
-            </p>
-            <p class="mt-2.1 text-md text-gray-700 leading-normal">
-              Good design is honest. It does not make a product more innovative, powerful or valuable than it really is.
-            </p>
-          </section>
-
-          <section class="mb-4.5 break-inside-avoid">
-            <header>
-              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                Third One
-              </h3>
-              <p class="leading-normal text-md text-gray-650">
-                2013 – 2014 | Vue
-              </p>
-            </header>
-            <p class="mt-2.1 text-md text-gray-700 leading-normal">
-              Good design is innovative. Technological development is always offering new opportunities for innovative
-              design.
-            </p>
-            <p class="mt-2.1 text-md text-gray-700 leading-normal">
-              Good design emphasizes the usefulness of a product whilst disregarding anything that could possibly detract from it.
-            </p>
-          </section>
-
-          <section class="mb-4.5 break-inside-avoid">
-            <header>
-              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                Fantastic Project
-              </h3>
-              <p class="leading-normal text-md text-gray-650">
-                2012 | JavaScript
-              </p>
-            </header>
-            <p class="mt-2.1 text-md text-gray-700 leading-normal">
-              Products fulfilling a purpose are like tools. They are neither decorative objects nor works of art. Their design should therefore be both neutral and restrained, to leave room for the user’s self-expression.
-            </p>
-          </section>
-
-        </section>
-
-        <section class="mt-8 first:mt-0">
-
-          <!-- To keep in the same column -->
-          <div class="break-inside-avoid">
-
-            <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal">
-              SKILLS
-            </h2>
-
-            <section class="mb-4.5 break-inside-avoid">
-              <header>
-                <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                  JavaScript
-                </h3>
-                <p class="leading-normal text-md text-gray-650">
-                  Middle Level
-                </p>
-              </header>
-              <p class="mt-2.1 text-md text-gray-700 leading-normal">
-                Good parts: pure function, higher-order functions, factory functions, composition. Bad parts:
-                inheritance, this, new.
-              </p>
-              <div class="my-3.2 last:pb-1.5">
-                <ul class="flex flex-wrap text-md leading-relaxed -mr-1.6 -mb-1.6">
-                  <li
-                    class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                    ES6
-                  </li>
-                  <li
-                    class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                    Vue
-                  </li>
-                  <li
-                    class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                    Functional Programming
-                  </li>
-                  <li
-                    class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                    Node
-                  </li>
-                </ul>
-              </div>
-            </section>
-
-          </div>
-
-          <section class="mb-4.5 break-inside-avoid">
-            <header>
-              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                Other
-              </h3>
-            </header>
-            <div class="my-3.2 last:pb-1.5">
-              <ul class="flex flex-wrap text-md leading-relaxed -mr-1.6 -mb-1.6">
-                <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                  CSS
-                </li>
-                <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                  Rust
-                </li>
-                <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                  Git
-                </li>
-                <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                  Go
-                </li>
-                <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                  Linux Server
-                </li>
-                <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                  UI Design
-                </li>
-                <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                  Photoshop
-                </li>
-                <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                  Illustrator
-                </li>
-                <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                  Figma
-                </li>
-                <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                  Typography
-                </li>
-              </ul>
-            </div>
-          </section>
-
-        </section>
-
-        <section class="mt-8 first:mt-0">
-
-          <!-- To keep in the same column -->
-          <div class="break-inside-avoid">
-
-            <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal">
-              CONTACT
-            </h2>
-
-            <section class="mb-4.5 break-inside-avoid">
-              <ul class="list-inside pr-7">
-                <li class="mt-1.5 leading-normal text-gray-700 text-md">
-                  <a href="//webpraktikos.com" class="group">
-                    webpraktikos.com
-                    <span class="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in">↗</span>
-                  </a>
-                </li>
-                <li class="mt-1.5 leading-normal text-gray-700 text-md">
-                  <a href="//twitter.com/webpraktikos" class="group">
-                    twitter.com/webpraktikos
-                    <span class="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in">↗</span>
-                  </a>
-                </li>
-                <li class="mt-1.5 leading-normal text-gray-700 text-md">
-                  1020 Wien, Austria
-                </li>
-                <li class="mt-1.5 leading-normal text-gray-700 text-md">
-                  hi@webpraktikos.com
-                </li>
-                <li class="mt-1.5 leading-normal text-gray-700 text-md">
-                  (+43) 0699 77 33 77 55
-                </li>
-              </ul>
-            </section>
-
-          </div>
-
-        </section>
-
-      </div>
-      <!-- end Column -->
-
-    </div>
-    <!-- end Page -->
-
-  </main>
-
-</body>
-
+      <!-- end Page -->
+    </main>
+  </body>
 </html>
