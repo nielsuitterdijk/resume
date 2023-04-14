@@ -1,0 +1,282 @@
+
+      <div class="mx-auto page max-w-a4 h-a4 bg-gray-100">
+        <div class="grid grid-cols-2 col-gap-md col-fill-auto h-full w-full">
+          <!-- LEFT COLUMN -->
+          <div class="flex-1 p-6">
+            <!-- EDUCATION -->
+            <section class="mt-4 first:mt-0">
+              <h1 class="header">Education</h1>
+              <div class="header-line"></div>
+
+              <section class="mb-1">
+                <div class="subheader">MSc Systems & Control</div>
+                <div class="subsub-header">
+                  Sep 2017 – Feb 2020 | Technical University of Delft
+                </div>
+                <ul class="list-disc pl-4">
+                  <li>
+                    MSc thesis for Tritium (DC Fast Charger OEM, 5.000
+                    globally). (Grade 8.5 / 10.0)
+                  </li>
+                </ul>
+              </section>
+              <div class="section-break"></div>
+
+              <section class="mb-1">
+                <div class="subheader">BSc Mechanical Engineering</div>
+                <div class="subsub-header">
+                  Sep 2013 – Jul 2016 | Technical University of Delft
+                </div>
+              </section>
+            </section>
+
+            <!-- EXTRA CURRICULAR -->
+            <section class="mt-4 first:mt-0">
+              <!-- To keep in the same column -->
+              <div class="">
+                <h1 class="header">Extra-curricular</h1>
+                <div class="header-line"></div>
+
+                <!-- FSTD -->
+                <section class="mb-1">
+                  <div class="subheader">Powertrain Dep. Manager</div>
+                  <div class="subsub-header">
+                    Jul 2016 – Aug 2017 | Formula Student Team Delft
+                  </div>
+                  <ul class="list-disc pl-4">
+                    <li>
+                      Competed in FS Hungary (2nd), FS Spain (4th) and FS
+                      Germany (12th).
+                    </li>
+                  </ul>
+                </section>
+                <div class="section-break-small"></div>
+
+                <!-- THOR -->
+                <section class="mb-1">
+                  <header>
+                    <div class="subheader">Board - Secretary</div>
+                    <div class="subsub-header">
+                      Sep 2016 – Aug 2017 | SRC Thor | Delft
+                    </div>
+                  </header>
+                </section>
+                <div class="section-break-small"></div>
+
+                <!-- MINOR -->
+                <section class="mb-1">
+                  <header>
+                    <div class="subheader">Exchange Minor</div>
+                    <div class="subsub-header">
+                      Aug 2015 – Feb 2016 | Lund University | Lund, Sweden
+                    </div>
+                  </header>
+                </section>
+                <div class="section-break-small"></div>
+
+                <!-- HONOURS -->
+                <section class="mb-1">
+                  <header>
+                    <div class="subheader">BSc Honours Programme</div>
+                    <div class="subsub-header">
+                      Sep 2014 - Aug 2015 | Technical University of Delft
+                    </div>
+                    <ul class="list-disc pl-4">
+                      <li>Elected from the top 5% students.</li>
+                    </ul>
+                  </header>
+                </section>
+              </div>
+            </section>
+
+            <!-- PROJECTS -->
+            <section class="mt-4 first:mt-0">
+              <h1 class="header">Notable Projects</h1>
+              <div class="header-line"></div>
+
+              <!-- Hamilton -->
+              <section class="mb-4">
+                <header>
+                  <div class="subheader">
+                    IIoT Cloud Architecture for Medical Machines
+                  </div>
+                  <div class="subsub-header">
+                    Nov '23 - Jan '24 | 3 months | Cloud Architect
+                  </div>
+                </header>
+                <div class="my-1 last:pb-1.5">
+                  <ul class="flex flex-wrap leading-relaxed -mb-2">
+                    <li class="tag">Azure B2C</li>
+                    <li class="tag">HA/DR</li>
+                    <li class="tag">Front Door</li>
+                    <li class="tag">AKS</li>
+                    <li class="tag">IoT Hub</li>
+                    <li class="tag">Stream Analytics</li>
+                  </ul>
+                </div>
+                To boost revenue and outpace competitors, a Swiss medical
+                manufacturer aimed to collect machine data. We architected their
+                Landing Zone, IIoT infrastructure, and Azure B2C identity
+                management, addressing regulatory compliance, secure networking,
+                and scalable architecture. This preparation enabled a smooth
+                implementation start.
+              </section>
+              <div class="section-break-small"></div>
+
+              <!-- Helsana -->
+              <section class="mb-4">
+                <header>
+                  <div class="subheader">Azure Cloud Security Concept</div>
+                  <div class="subsub-header">
+                    Oct '23 - Mar '24 | 6 months | Cloud Lead
+                  </div>
+                </header>
+                <div class="my-1 last:pb-1.5">
+                  <ul class="flex flex-wrap leading-relaxed -mb-2">
+                    <li class="tag">Azure</li>
+                    <li class="tag">Sentinel</li>
+                    <li class="tag">Terraform</li>
+                    <li class="tag">Policy</li>
+                    <li class="tag">Governance</li>
+                    <li class="tag">Security</li>
+                    <li class="tag">Azure DevOps</li>
+                  </ul>
+                </div>
+                Facing a FINMA audit with 1,600 vulnerabilities, we prioritized
+                and fixed them for a major Swiss health insurer, established a
+                Cloud Governance Strategy, and helped form their cloud Security,
+                Governance, and Operations teams. We initiated Sentinel and
+                Policy setups, boosting their Secure Score by 12% and enhancing
+                centralized monitoring for steady security.
+              </section>
+              <div class="section-break-small"></div>
+            </section>
+          </div>
+
+          <div class="flex-1 p-6">
+            <!-- Zurich Insurance -->
+            <section class="mb-4">
+              <header>
+                <div class="subheader">GPT-4 Powered Underwriter Assistant</div>
+                <div class="subsub-header">
+                  Oct '23 - Mar '24 | 6 months | Cloud Lead
+                </div>
+              </header>
+              <div class="my-1 last:pb-1.5">
+                <ul class="flex flex-wrap leading-relaxed -mb-2">
+                  <li class="tag">OpenAI</li>
+                  <li class="tag">Azure Kubernetes Service</li>
+                  <li class="tag">Azure Functions</li>
+                  <li class="tag">SQL Database</li>
+                  <li class="tag">Azure DevOps</li>
+                  <li class="tag">.NET</li>
+                </ul>
+              </div>
+              For a global insurance firm, we streamlined underwriting by
+              categorizing 500+ guidelines and extracting key risk factors.
+              Implemented on AKS, our web-scraper and API integration made
+              crucial data accessible to underwriters, enhancing their process
+              with key policy insights.
+            </section>
+            <div class="section-break-small"></div>
+
+            <!-- EV Chargers -->
+            <section class="mb-4">
+              <header>
+                <div class="subheader">IoT Platform for EV Chargers</div>
+                <div class="subsub-header">
+                  Jun '22 - Apr '23 | 10 months | Tech Lead
+                </div>
+              </header>
+              <div class="my-1 last:pb-1.5">
+                <ul class="flex flex-wrap leading-relaxed -mb-2">
+                  <li class="tag">AKS</li>
+                  <li class="tag">IoT Hub</li>
+                  <li class="tag">Data Lake</li>
+                  <li class="tag">Functions</li>
+                  <li class="tag">SQL Database</li>
+                  <li class="tag">Service Bus</li>
+                  <li class="tag">Python, TS</li>
+                  <li class="tag">Azure DevOps</li>
+                </ul>
+              </div>
+              We developed an charger management platform to tackle EV charger
+              reliability. It centralizes documentation, configurations, live
+              telemetry, and uses machine learning for failure detection,
+              accelerating root cause analysis by up to 80%.
+            </section>
+            <div class="section-break-small"></div>
+
+            <!-- Smart Maintenance -->
+            <section class="mb-4">
+              <header>
+                <div class="subheader">
+                  Smart Maintenance Platform for Industrial Machinery
+                  Manufacturers
+                </div>
+                <div class="subsub-header">
+                  Jan '21 - Jun '22 | 1.5 years | Tech Lead
+                </div>
+              </header>
+              <div class="my-1 last:pb-1.5">
+                <ul class="flex flex-wrap leading-relaxed -mb-2">
+                  <li class="tag">GKE</li>
+                  <li class="tag">GCP Dataflow</li>
+                  <li class="tag">GCP IoT Core</li>
+                  <li class="tag">Azure</li>
+                  <li class="tag">Python, JS</li>
+                  <li class="tag">Github Actions</li>
+                </ul>
+              </div>
+              Designed and implemented a machine learning platform for
+              predictive maintenance, integrating IoT data sources. Enabled
+              service engineers to efficiently manage data and develop over
+              1,000 machine learning models for on-premises and cloud
+              deployment, successfully predicting dozens of daily failures.
+            </section>
+            <div class="section-break-small"></div>
+
+            <!-- Solarmanager -->
+            <section class="mb-4">
+              <header>
+                <div class="subheader">
+                  Solar Manager AG Underperformance Detection
+                </div>
+                <div class="subsub-header">
+                  2020 | 6 months | Machine Learning Engineer
+                </div>
+                <div class="my-1 last:pb-1.5">
+                  <ul class="flex flex-wrap leading-relaxed -mb-2">
+                    <li class="tag">AWS EC2</li>
+                    <li class="tag">AWS S3</li>
+                    <li class="tag">Python</li>
+                    <li class="tag">Github Actions</li>
+                  </ul>
+                </div>
+              </header>
+              Solar panel degradion often happens unnoticed, causing energy
+              losses. We developed a model to check whether the daily energy
+              prodution was as expected, given the weather conditions. We
+              detected underperformance in 2% of users and increased user
+              engagement by 15%.
+            </section>
+            <div class="section-break-small"></div>
+
+            <!-- Saudi Aramco -->
+            <section class="mb-4">
+              <header>
+                <div class="subheader">Saudi Aramco Processhub</div>
+                <div class="subsub-header">
+                  2019 | 9 months | Machine Learning Engineer
+                </div>
+              </header>
+              <div class="last:pb-1.5">
+                LNG transportation requires a large industrial compressor for
+                liquification which is hard-to-control and a single point of
+                failure. We build a recommendation engine using a predictive
+                model to support the control engineers, reducing flaring by 9%.
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>

@@ -10,106 +10,69 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <!-- <link rel="preload" href="./fonts/FiraGO-Regular.latin.woff2" as="font" crossorigin="anonymous"> -->
     <link href="./build.css" rel="stylesheet" />
+    <link href="./custom.css" rel="stylesheet" />
     <title>Niels Uitterdijk — Resume</title>
 
-    <script
-      src="https://kit.fontawesome.com/a5d280c3ba.js"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://kit.fontawesome.com/a5d280c3ba.js" crossorigin="anonymous"></script>
   </head>
 
   <body>
-    <main class="font-firago hyphens-manual">
+    <main class="font-firago hyphens-manual text-black">
       <!-- Page -->
       <div class="mx-auto page max-w-a4 h-a4 bg-white">
         <div class="flex flex-col h-full w-full">
           <!-- HEADER -->
           <div class="flex h-14 items-center">
-            <div class="h-full text-white bg-gray-700 font-medium px-3 mx-8">
-              <div class="pt-10 mb-2">N</div>
-              <div>U</div>
-            </div>
+            <div class="h-full green-bg px-3 mx-8"></div>
             <div class="flex-col">
-              <h1 class="text-2xl font-semibold text-gray-750 pb-px">
-                Niels Uitterdijk
-              </h1>
+              <div class="name">Niels Uitterdijk</div>
               <p class="text-md text-gray-700">
-                Building products that make a difference - from concept to
-                delivery, with a data-driven mindset and a passion for
-                innovation.
+                Experienced & entrepreneurial cloud architect driving innovation with a flair for AKS & machine learning
+                platforms. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               </p>
             </div>
-            <div>
-              <img width="150px" height="150px" src="unnamed.jpg" />
+            <div class="">
+              <img width="100px" height="100px" src="picture.jpg" />
             </div>
           </div>
           <!-- end Name -->
 
           <!-- COLUMNS -->
-          <div class="h-full grid grid-cols-3 col-gap-md col-fill-auto">
+          <div class="h-full grid grid-cols-3 col-fill-auto">
             <!-- LEFT COLUMN -->
-            <div class="flex-1 bg-gray-400 p-8">
+            <div class="flex-1 sidebar-bg p-6">
               <!-- PROFILE -->
-              <section class="mt-8 first:mt-0">
-                <!-- To keep in the same column -->
+              <section class="first:mt-0">
                 <div class="break-inside-avoid">
-                  <h2
-                    class="mb-4 font-bold tracking-widest text-sm2 text-gray-550"
-                  >
-                    PROFILE
-                  </h2>
-
-                  <section class="mb-4.5 break-inside-avoid">
-                    <p class="mt-2.1 text-md text-gray-700 leading-normal">
-                      <!-- PRODUCT MANAGEMENT -->
-                      Passionate about creating innovative, user-centric
-                      products that solve real-world problems. My expertise in
-                      machine learning brings a unique perspective to product
-                      development. Led a 5-member cross-functional product team
-                      to develop products that achieved a 80% productivity and
-                      reduced 10% downtime.
-
-                      <!-- MACHINE LEARNING -->
-                      <!-- Ambitious engineer / entrepreneur with a passion for
-                      innovation, robust deployment and measured value-add. With
-                      a proven track record in software engineering, I have
-                      worked on projects spanning Machine Learning, CV and NLP.
-                      I excel at model development, data wrangling, experiment
-                      tracking, deployment monitoring, and maintaining best
-                      practices in CI/CD. -->
-                    </p>
-                  </section>
+                  <h1 class="header">Profile</h1>
+                  <div class="header-line break-inside-avoid"></div>
+                  Certified architect with a five years of team leading experience in cloud & data infrastructure design
+                  across heavy industry, FSI, and the telcom sector. I'm a driven engineer, entrepreneur and deeply
+                  committed to innovation and pragmatism. My expertise in cloud engineering is backed by a diverse
+                  project portfolio spanning IIoT, machine learning, and generative AI. I excel in designing scalable,
+                  secure, and efficient cloud solutions to meet business needs and enhance operational efficiency.
                 </div>
               </section>
 
               <!-- PROUD -->
-              <section class="mt-8 first:mt-0">
+              <section class="mt-4 first:mt-0">
                 <div class="break-inside-avoid">
-                  <h2
-                    class="mb-4 font-bold tracking-widest text-sm2 text-gray-550"
-                  >
-                    MOST PROUD OF
-                  </h2>
+                  <h1 class="header">Most Proud Of</h1>
+                  <div class="header-line"></div>
 
-                  <section class="mb-4.5 break-inside-avoid">
+                  <section class="break-inside-avoid">
                     <ul class="list-inside pr-7">
-                      <li
-                        class="mt-1.5 leading-normal text-gray-700 text-md font-semibold pr-1"
-                      >
+                      <li class="mt-1.5 leading-normal pr-1">
                         <i class="fa-solid fa-trophy fa-l pr-2"></i>
-                        Founding a Startup<br />
+                        Successfully founding a startup<br />
                       </li>
-                      <li
-                        class="mt-1.5 leading-normal text-gray-700 text-md font-semibold pr-1"
-                      >
+                      <li class="mt-1.5 leading-normal pr-1">
                         <i class="fa-solid fa-trophy fa-l pr-2"></i>
-                        Building an Electric Racecar
+                        Standardizing AKS migration for dozens applications for UBS
                       </li>
-                      <li
-                        class="mt-1.5 leading-normal text-gray-700 text-md font-semibold pr-1"
-                      >
+                      <li class="mt-1.5 leading-normal pr-1">
                         <i class="fa-solid fa-trophy fa-l pr-2"></i>
-                        Zurich Marathon Finisher
+                        Building an award winning electric racecar
                       </li>
                     </ul>
                   </section>
@@ -117,189 +80,97 @@
               </section>
 
               <!-- Strenghts -->
-              <section class="mt-8 first:mt-0">
+              <section class="mt-4 first:mt-0">
                 <div class="break-inside-avoid">
-                  <h2
-                    class="mb-4 font-bold tracking-widest text-sm2 text-gray-550"
-                  >
-                    STRENGTHS
-                  </h2>
+                  <h1 class="header">Strengths</h1>
+                  <div class="header-line"></div>
 
                   <section class="mb-4.5 break-inside-avoid">
-                    <ul
-                      class="flex flex-wrap text-md leading-relaxed -mr-1.6 -mb-1.6"
-                    >
-                      <li
-                        class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
-                      >
-                        Product Owner
-                      </li>
-                      <li
-                        class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
-                      >
-                        Scrum
-                      </li>
-                      <li
-                        class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
-                      >
-                        Agile
-                      </li>
-                      <li
-                        class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
-                      >
-                        Product Strategy
-                      </li>
-                      <li
-                        class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
-                      >
-                        Project Mgtm.
-                      </li>
-                      <li
-                        class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
-                      >
-                        Systems Design
-                      </li>
-                      <li
-                        class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
-                      >
-                        MLOps
-                      </li>
-                      <li
-                        class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
-                      >
-                        Machine Learning
-                      </li>
-                      <li
-                        class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
-                      >
-                        Deep Learning
-                      </li>
-                      <li
-                        class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
-                      >
-                        NLP
-                      </li>
-                      <li
-                        class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
-                      >
-                        CV
-                      </li>
-                      <li
-                        class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
-                      >
-                        Cloud
-                      </li>
-                      <!-- <li
-                        class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
-                      >
-                        Data Engineering
-                      </li> -->
-                      <li
-                        class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
-                      >
-                        DevOps
-                      </li>
-                      <li
-                        class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
-                      >
-                        CI/CD
-                      </li>
-                      <!-- <li
-                        class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
-                      >
-                        Web. Dev.
-                      </li> -->
-                      <li
-                        class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
-                      >
-                        Data Analytics
-                      </li>
+                    <ul class="flex flex-wrap leading-relaxed -mr-1.6 -mb-1.6">
+                      <li class="strength">Problem-Solving</li>
+                      <li class="strength">Cloud Architecture</li>
+                      <li class="strength">ML Platforms</li>
+                      <li class="strength">Security</li>
+                      <li class="strength">Leadership</li>
+                      <li class="strength">Systems Design</li>
+                      <li class="strength">Project Mgtm.</li>
+                      <li class="strength">Customer Focus</li>
+                      <li class="strength">Analytical</li>
+                      <li class="strength">Resilience</li>
+                      <li class="strength">DevOps</li>
                     </ul>
                   </section>
                 </div>
               </section>
 
               <!-- LANGUAGES -->
-              <section class="mt-8 first:mt-0">
+              <section class="mt-4 first:mt-0">
                 <div class="break-inside-avoid">
-                  <h2
-                    class="mb-4 font-bold tracking-widest text-sm2 text-gray-550"
-                  >
-                    LANGUAGES
-                  </h2>
+                  <h1 class="header">Languages</h1>
+                  <div class="header-line"></div>
 
-                  <section class="mb-4.5 break-inside-avoid flex space-x-20">
+                  <section class="mb-4.5 flex space-x-20 break-inside-avoid">
                     <ul class="list-inside pr-7">
-                      <li class="mt-1.5 leading-normal text-gray-700 text-md">
-                        Dutch
-                      </li>
-                      <li class="mt-1.5 leading-normal text-gray-700 text-md">
-                        English
-                      </li>
-                      <li class="mt-1.5 leading-normal text-gray-700 text-md">
-                        German
-                      </li>
+                      <li class="mt-1.5 leading-normal">Dutch</li>
+                      <li class="mt-1.5 leading-normal">English</li>
+                      <li class="mt-1.5 leading-normal">German</li>
                     </ul>
                     <ul class="list-inside">
-                      <li class="mt-1.5 leading-normal text-gray-700 text-md">
-                        Native
-                      </li>
-                      <li class="mt-1.5 leading-normal text-gray-700 text-md">
-                        C2
-                      </li>
-                      <li class="mt-1.5 leading-normal text-gray-700 text-md">
-                        B1
-                      </li>
+                      <li class="mt-1.5 leading-normal">Native</li>
+                      <li class="mt-1.5 leading-normal">Fluent</li>
+                      <li class="mt-1.5 leading-normal">B1</li>
                     </ul>
                   </section>
                 </div>
               </section>
 
-              <!-- CONTACT -->
-              <section class="mt-8 first:mt-0">
+              <!-- Certifications -->
+              <section class="mt-4 first:mt-0">
+                <!-- To keep in the same column -->
                 <div class="break-inside-avoid">
-                  <h2
-                    class="mb-4 font-bold tracking-widest text-sm2 text-gray-550"
-                  >
-                    CONTACT
-                  </h2>
+                  <h1 class="header">Certifications</h1>
+                  <div class="header-line"></div>
+                  <section class="break-inside-avoid">
+                    (CKA) Certified Kubernetes Administrator <br />
+                    AZ-104 Azure Administrator <br />
+                    AZ-305 Solutions Architect Expert
+                  </section>
+                </div>
+              </section>
 
-                  <section class="mb-4.5 break-inside-avoid">
+              <!-- CONTACT -->
+              <section class="mt-4 first:mt-0">
+                <div class="break-inside-avoid">
+                  <h1 class="header">Contact</h1>
+                  <div class="header-line"></div>
+
+                  <section class="break-inside-avoid">
                     <ul class="list-inside pr-7">
-                      <li class="mt-1.5 leading-normal text-gray-700 text-md">
-                        <a
-                          href="https://linkedin.com/in/nielsuitterdijk"
-                          class="group"
-                        >
+                      <li class="mt-1.5 leading-normal">
+                        <a href="https://linkedin.com/in/nielsuitterdijk">
                           <i class="fa-brands fa-linkedin pr-2"></i>
                           nielsuitterdijk
-                          <span
-                            class="inline-block text-gray-550 font-normal group-hover:text-gray-700 transition duration-100 ease-in"
-                            >↗</span
-                          >
+                          <span class="inline-block font-normal">↗</span>
                         </a>
                       </li>
-                      <li class="mt-1.5 leading-normal text-gray-700 text-md">
+                      <li class="mt-1.5 leading-normal">
                         <a href="https://github.com/nielsuit227" class="group">
                           <i class="fa-brands fa-github pr-2"></i>
                           nielsuit227
-                          <span
-                            class="inline-block text-gray-550 font-normal group-hover:text-gray-700 transition duration-100 ease-in"
-                            >↗</span
-                          >
+                          <span class="inline-block font-normal">↗</span>
                         </a>
                       </li>
-                      <li class="mt-1.5 leading-normal text-gray-700 text-md">
+                      <li class="mt-1.5 leading-normal">
                         <i class="fa-solid fa-location-dot pr-2"></i>
                         8048 Zurich, Switzerland
                       </li>
-                      <li class="mt-1.5 leading-normal text-gray-700 text-md">
+                      <li class="mt-1.5 leading-normal">
                         <i class="fa-solid fa-envelope pr-2"></i>
                         niels.uit@gmail.com
                       </li>
-                      <li class="mt-1.5 leading-normal text-gray-700 text-md">
+                      <li class="mt-1.5 leading-normal">
                         <i class="fa-solid fa-phone pr-2"></i>
-                        (+31) 6 250 75 273
+                        (+41) 79 579 82 25
                       </li>
                     </ul>
                   </section>
@@ -308,269 +179,163 @@
             </div>
 
             <!-- RIGHT COLUMN -->
-            <div class="flex-1 p-4 col-span-2">
+            <div class="flex-1 p-6 col-span-2">
               <!-- EXPERIENCE -->
-              <section class="mt-8 first:mt-0">
-                <h2
-                  class="mb-4 font-bold tracking-widest text-sm2 text-gray-550"
-                >
-                  EXPERIENCE
-                </h2>
+              <section class="first:mt-0">
+                <div class="break-inside-avoid">
+                  <div class="header">Professional Experience</div>
+                  <div class="header-line"></div>
 
-                <!-- AMPLO -->
-                <section class="mb-4.5 break-inside-avoid">
-                  <header>
-                    <h3
-                      class="text-lg font-semibold text-gray-700 leading-snugish"
-                    >
-                      Co-Founder & Tech Lead
-                    </h3>
-                    <p class="leading-normal text-md text-gray-650">
-                      Mar 2020 – Mar 2023 | Amplo AG | Zurich
-                    </p>
-                  </header>
-                  <ul class="list-disc pl-4">
-                    <li>
-                      Founded and led a technology startup from ideation to
-                      launch, securing 1.6M CHF in funding, growing the team to
-                      8 employees.
-                    </li>
-                    <li>
-                      Developed an ML-powered platform that streamlines machine
-                      diagnosis for small and mid-sized maintenance teams,
-                      resulting in a 80% increase in productivity for clients.
-                    </li>
-                    <li>
-                      Built a strong company culture, emphasizing collaboration,
-                      innovation, and customer-centricity, resulting in a 100%
-                      employee retention rate.
-                    </li>
-                    <li>
-                      Implemented fully automated ML training and serving
-                      pipelines using Databricks, Kubernetes, RabbitMQ and
-                      ClearML.
-                    </li>
-                    <!-- <li>
-                      Implemented scrum management to improve development
-                      efficiency and increase product quality using Jira,
-                      Mixpanel, Github, Sentry and Figma.
-                    </li> -->
-                    <li>
-                      Successfully launched multiple ML-based products,
-                      including a recommendation engine and a predictive
-                      analytics platform, resulting in a 15% increase in user
-                      engagement and a 10% decrease in downtime.
-                    </li>
-                    <!-- <li>
-                      Enabled fast solution validation by developing, tracking
-                      and reporting ony performance metrics such as feature
-                      engagement.
-                    </li> -->
-                  </ul>
-                </section>
+                  <!-- ZUHLKE -->
+                  <section class="break-inside-avoid">
+                    <div class="subheader">Expert Cloud Engineer</div>
+                    <div class="subsub-header">Jun 2023 – ongoing | Zühlke Engineering AG | Zurich</div>
+                    <ul class="list-disc pl-4">
+                      <!-- TODO: remove projects -->
+                      <li>
+                        Led the <b>Cloud Architecture</b> for multiple large-scale solutions, from GPT-4 landing zones,
+                        strategic AKS migration platforms and full IIoT solutions.
+                      </li>
+                      <li>
+                        Succesfully provided strategic
+                        <b>Cloud Consulting</b> for governance, migration & vulnerability management.
+                      </li>
+                      <li>
+                        <b>Bids & Sales:</b> Proactively pushed sales activities in the IoT sector, leading the
+                        technical side of various bids, including the provisional architecture for a 1.5M CHF RfP.
+                      </li>
+                      <li>
+                        <b>Technical Execution:</b> Actively developed IaC with Terraform, Ansible, Bicep, (a.o.) to
+                        configure, automate and secure infrastructure provisioning & drive DevOps practices.
+                      </li>
+                      <li>
+                        <b>Team / Deliver Lead:</b> took ownership of the delivery and guided or led the teams through
+                        various projects.
+                      </li>
+                    </ul>
+                  </section>
+                  <div class="section-break"></div>
 
-                <!-- UPWORK -->
-                <section class="mb-4.5 break-inside-avoid">
-                  <header>
-                    <h3
-                      class="text-lg font-semibold text-gray-700 leading-snugish"
-                    >
-                      Machine Learning Freelancer
-                    </h3>
-                    <p class="leading-normal text-md text-gray-650">
-                      Oct 2019 – Aug 2020 | Upwork | Remote
-                    </p>
-                  </header>
-                  <ul class="list-disc pl-4">
-                    <li>
-                      Acquired ‘Rising Talent’ status, with a rating of 4.92 /
-                      5.0
-                    </li>
-                  </ul>
-                </section>
+                  <!-- AMPLO -->
+                  <section class="break-inside-avoid">
+                    <div class="subheader">Founder & CTO</div>
+                    <div class="subsub-header">Mar 2020 – Mar 2023 | Amplo AG | Zurich</div>
+                    <ul class="list-disc pl-4">
+                      <li>
+                        Founded a tech startup, secured 1.6M CHF funding, hired seven engineers and launching multiple
+                        products.
+                      </li>
+                      <li>
+                        Developed an event-driven predictive maintenance platform, automating 90% of the RCA tickets for
+                        various clients.
+                      </li>
+                      <li>
+                        Established a strong culture of collaboration, innovation, and customer-focus, without having
+                        any employee quit during the tougher times.
+                      </li>
+                      <li>
+                        Served over 1'000 predictive models through an inhouse developed AutoML pipeline, supporting the
+                        various products.
+                      </li>
+                    </ul>
+                  </section>
+                  <div class="section-break"></div>
 
-                <!-- TRITIUM -->
-                <section class="mb-4.5 break-inside-avoid">
-                  <header>
-                    <h3
-                      class="text-lg font-semibold text-gray-700 leading-snugish"
-                    >
-                      Machine Learning Intern
-                    </h3>
-                    <p class="leading-normal text-md text-gray-650">
-                      Feb 2019 – Aug 2019 | Tritium Ltd. Pty. | Brisbane,
-                      Australia
-                    </p>
-                  </header>
-                  <ul class="list-disc pl-4">
-                    <li>
-                      Analysed failure data and deployed predictive models in
-                      AWS lambda, connected with telemetry.
-                    </li>
-                    <li>
-                      Improved successful charge rate by ±5% by detecting the
-                      two most common failures two months ahead of time
-                    </li>
-                    <li>
-                      Achieved 0% FPR by using a distributionally robust SVM.
-                    </li>
-                  </ul>
-                </section>
+                  <!-- UPWORK -->
+                  <section class="break-inside-avoid">
+                    <div class="subheader">Cloud & ML Freelancer</div>
+                    <div class="subsub-header">Oct 2019 – Aug 2020 | Upwork | Remote</div>
+                    Acquired ‘Rising Talent’ status, with a rating of 4.92 / 5.0
+                  </section>
+                  <div class="section-break-small"></div>
 
-                <!-- DELFT - TA -->
-                <section class="mb-4.5 break-inside-avoid">
-                  <header>
-                    <h3
-                      class="text-lg font-semibold text-gray-700 leading-snugish"
-                    >
-                      Teaching Assistant Advanced Dynamics
-                    </h3>
-                    <p class="leading-normal text-md text-gray-650">
-                      Aug 2015 – Feb 2016 | Technical University of Delft |
-                      Delft, Netherlands
-                    </p>
-                  </header>
-                  <ul class="list-disc pl-4"></ul>
-                </section>
+                  <!-- TRITIUM -->
+                  <section class="break-inside-avoid">
+                    <div class="subheader">Machine Learning Intern</div>
+                    <div class="subsub-header">Feb 2019 – Aug 2019 | Tritium Ltd. Pty. | Brisbane</div>
+                    Analysed failure data and deployed predictive models in AWS lambda, connected with telemetry in S3
+                    to improve successful charger rate by ±5 by catching two failures prematurely.
+                  </section>
+                  <div class="section-break-small"></div>
+
+                  <!-- FSTD -->
+                  <section class="mb-1">
+                    <div class="subheader">Powertrain Department Manager</div>
+                    <div class="subsub-header">Jul 2016 – Aug 2017 | Formula Student Team Delft | Delft</div>
+                    Leading my department of eleven engineers to design & build the battery, motorcontrollers & motors
+                    of our 4WD electric racecar, Competed in FS Hungary (2nd), FS Spain (4th) and FS Germany (12th).
+                  </section>
+                  <div class="section-break-small"></div>
+
+                  <!-- DELFT - TA -->
+                  <section class="break-inside-avoid">
+                    <div class="subheader">Teaching Assistant Advanced Dynamics</div>
+                    <div class="subsub-header">Aug 2015 – Feb 2016 | Technical University of Delft | Delft</div>
+                    <ul class="list-disc pl-4"></ul>
+                  </section>
+                </div>
               </section>
 
-              <!-- PROJECTS -->
-              <section class="mt-8 first:mt-0">
-                <h2
-                  class="mb-4 font-bold tracking-widest text-sm2 text-gray-550"
-                >
-                  NOTABLE PROJECTS
-                </h2>
-                <section class="mb-4.5 break-inside-avoid">
-                  <header>
-                    <h3
-                      class="text-lg font-semibold text-gray-700 leading-snugish"
-                    >
-                      Amplo Service Hub
-                    </h3>
-                    <p class="leading-normal text-md text-gray-650">
-                      2023 | 6 months | Tech Lead
-                    </p>
-                  </header>
-                  <div class="my-1 last:pb-1.5">
-                    <ul class="flex flex-wrap text-md leading-relaxed -mb-2">
-                      <li
-                        class="px-2.5 mr-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200"
-                      >
-                        RabbitMQ
-                      </li>
-                      <li
-                        class="px-2.5 mr-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200"
-                      >
-                        ClearML
-                      </li>
-                      <li
-                        class="px-2.5 mr-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200"
-                      >
-                        PyTorch
-                      </li>
-                      <li
-                        class="px-2.5 mr-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200"
-                      >
-                        HuggingFace
-                      </li>
-                      <li
-                        class="px-2.5 mr-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200"
-                      >
-                        MLOps
-                      </li>
-                    </ul>
-                  </div>
-                  End-to-end IoT platform which connects to any industrial
-                  machine, providing easy access to any (un)structured machine
-                  data. Finetuned text classification models to detect failures
-                  in log files.
-                </section>
+              <div class="grid grid-cols-2 col-gap-md col-fill-auto h-full w-full">
+                <!-- EDUCATION -->
+                <div class="flex-1 pt-6">
+                  <section class="mt-4 first:mt-0">
+                    <h1 class="header">Education</h1>
+                    <div class="header-line"></div>
 
-                <section class="mb-4.5 break-inside-avoid">
-                  <header>
-                    <h3
-                      class="text-lg font-semibold text-gray-700 leading-snugish"
-                    >
-                      Amplo Smart Maintenance Platform
-                    </h3>
-                    <p class="leading-normal text-md text-gray-650">
-                      2022 | 1.5 year | Tech Lead
-                    </p>
-                  </header>
-                  <div class="my-1 last:pb-1.5">
-                    <ul class="flex flex-wrap text-md leading-relaxed -mb-2">
-                      <li
-                        class="px-2.5 mr-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200"
-                      >
-                        CatBoost
-                      </li>
-                      <li
-                        class="px-2.5 mr-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200"
-                      >
-                        Azure IoT Hub
-                      </li>
-                      <li
-                        class="px-2.5 mr-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200"
-                      >
-                        Databricks
-                      </li>
-                      <li
-                        class="px-2.5 mr-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200"
-                      >
-                        AutoML
-                      </li>
-                      <li
-                        class="px-2.5 mr-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200"
-                      >
-                        CI/CD
-                      </li>
-                    </ul>
-                  </div>
-                  The platform reduced diagnostics time by 80% for the first
-                  pilot customer by using machine learning to detect hardware
-                  failures. Managed an in-house AutoML package for timeseries
-                  classification using Optuna, Catboost, and extensive feature
-                  engineering. Over 50 models deployed simultaneously.
-                </section>
+                    <section class="mb-1">
+                      <div class="subheader">MSc Systems & Control</div>
+                      <div class="subsub-header">Sep 2017 – Feb 2020 | Technical University of Delft</div>
+                      MSc thesis on online distributionally robust optimization for fault detection for Tritium's 5'000
+                      public DC Fast chargers (Grade 8.5 / 10.0).
+                    </section>
+                    <div class="section-break"></div>
 
-                <section class="mb-4.5 break-inside-avoid">
-                  <header>
-                    <h3
-                      class="text-lg font-semibold text-gray-700 leading-snugish"
-                    >
-                      Solar Manager AG Underperformance Detection
-                    </h3>
-                    <p class="leading-normal text-md text-gray-650">
-                      2021 | 4 months | Machine Learning Engineer
-                    </p>
-                  </header>
-                  <div class="my-1 last:pb-1.5">
-                    <ul class="flex flex-wrap text-md leading-relaxed -mb-2">
-                      <li
-                        class="px-2.5 mr-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200"
-                      >
-                        Flask
-                      </li>
-                      <li
-                        class="px-2.5 mr-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200"
-                      >
-                        Tensorflow
-                      </li>
-                      <li
-                        class="px-2.5 mr-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200"
-                      >
-                        LSTM
-                      </li>
-                    </ul>
-                  </div>
-                  Built business case using ML to put Solar Manager ahead of
-                  competition, using data of PV panels to detect
-                  underperformance. Developed an LSTM which achieved a relative
-                  MEA of 1.4%, detecting underperformance for 2% of users and
-                  increasing user engagement by 15%.
-                </section>
-              </section>
+                    <section class="mb-1">
+                      <div class="subheader">BSc Mechanical Engineering</div>
+                      <div class="subsub-header">Sep 2013 – Jul 2016 | Technical University of Delft</div>
+                    </section>
+                  </section>
+                </div>
+
+                <!-- EXTRA CURRICULAR -->
+                <div class="flex-1 pt-6">
+                  <section class="mt-4 first:mt-0">
+                    <!-- To keep in the same column -->
+                    <div class="">
+                      <h1 class="header">Extra-curricular</h1>
+                      <div class="header-line"></div>
+
+                      <!-- THOR -->
+                      <section class="mb-1">
+                        <header>
+                          <div class="subheader">Board - Secretary</div>
+                          <div class="subsub-header">Sep 2016 – Aug 2017 | SRC Thor | Delft</div>
+                        </header>
+                      </section>
+                      <div class="section-break-small"></div>
+
+                      <!-- MINOR -->
+                      <section class="mb-1">
+                        <header>
+                          <div class="subheader">Exchange Minor</div>
+                          <div class="subsub-header">Aug 2015 – Feb 2016 | Lund University | Lund, Sweden</div>
+                        </header>
+                      </section>
+                      <div class="section-break-small"></div>
+
+                      <!-- HONOURS -->
+                      <section class="mb-1">
+                        <header>
+                          <div class="subheader">BSc Honours Programme</div>
+                          <div class="subsub-header">Sep 2014 - Aug 2015 | Technical University of Delft</div>
+                          Elected from the top 5% students.
+                        </header>
+                      </section>
+                    </div>
+                  </section>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -580,538 +345,219 @@
 
       <!-- Page -->
       <div class="mx-auto page max-w-a4 h-a4 bg-gray-100">
-        <div class="grid grid-cols-3 col-gap-md col-fill-auto h-full w-full">
+        <div class="grid grid-cols-2 col-gap-md col-fill-auto h-full w-full">
           <!-- LEFT COLUMN -->
-          <div class="flex-1 p-10 col-span-2">
-            <!-- PROJECTS -->
-            <section class="mt-8 first:mt-0">
-              <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550">
-                NOTABLE PROJECTS
-              </h2>
+          <div class="flex-1 p-6">
+            <!-- Skills -->
+            <section class="mt-4 first:mt-0">
+              <h1 class="header">Skills</h1>
+              <div class="header-line"></div>
 
-              <section class="mb-4.5 break-inside-avoid">
+              <div class="break-inside-avoid grid grid-cols-2 col-fill-auto">
+                <div>
+                  <div class="subsub-header"><b>Cloud Platforms</b></div>
+                  Azure (4y), GCP (1y), AWS (3m)
+
+                  <div class="subsub-header"><b>Security & Governance</b></div>
+                  Sentinel, Policy, Zero Trust
+
+                  <div class="subsub-header"><b>Architecture & Design</b></div>
+                  High Availability, Disaster Recovery, Autoscaling, Networking
+                </div>
+                <div>
+                  <div class="subsub-header"><b>Infrastructure as Code</b></div>
+                  Terraform, Bicep, ARM, Ansible
+
+                  <div class="subsub-header"><b>DevOps & Automation</b></div>
+                  CI/CD, Gitlab, Github, Azure DevOps, ArgoCD, Ansible
+
+                  <div class="subsub-header"><b>Data & AI</b></div>
+                  SQL, Data Lakes, MLOps, Messaging & Event streaming, GPT
+                </div>
+              </div>
+            </section>
+
+            <!-- PROJECTS -->
+            <section class="mt-4 first:mt-0">
+              <h1 class="header">Notable Projects</h1>
+              <div class="header-line"></div>
+
+              <!-- UBS -->
+              <section class="mb-4">
                 <header>
-                  <h3
-                    class="text-lg font-semibold text-gray-700 leading-snugish"
-                  >
-                    Saudi Aramco Processhub
-                  </h3>
-                  <p class="leading-normal text-md text-gray-650">
-                    2020 | 6 month | Machine Learning Engineer
-                  </p>
+                  <div class="subheader">Develop Strategic AKS Infra & Automation</div>
+                  <div class="subsub-header">May '24 - ongoing | 6 months | Senior Cloud Engineer & Tech Lead</div>
                 </header>
                 <div class="my-1 last:pb-1.5">
-                  <ul class="flex flex-wrap text-md leading-relaxed -mb-2">
-                    <li
-                      class="px-2.5 mr-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200"
-                    >
-                      Tensorflow
-                    </li>
-                    <li
-                      class="px-2.5 mr-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200"
-                    >
-                      XG Boost
-                    </li>
-                    <li
-                      class="px-2.5 mr-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200"
-                    >
-                      OpenCV
-                    </li>
+                  <ul class="flex flex-wrap leading-relaxed -mb-2">
+                    <li class="tag">AKS</li>
+                    <li class="tag">Helm</li>
+                    <li class="tag">Ansible</li>
+                    <li class="tag">Terraform</li>
+                    <li class="tag">Istio</li>
+                    <li class="tag">Gitlab</li>
                   </ul>
                 </div>
-                Built ML systems and managed UX for an assistive web platform
-                which reduced plant waste by 40% of a large LNG processing
-                plant. Supported the fullstack engineers with user stories and
-                presented prototypes to management. Developed CV models which
-                detected oil leaks in cooling columns, reducing manual
-                inspections by multiple hours per day and increasing detection
-                speed by up to a week.
+                A leading international Swiss bank is merging two application landscapes whilst migrating from PCF to
+                Azure. Our Cloud Adoption team built the bridge between the operations, strategy, security & application
+                teams for the dedicated AKS migration path. We aligned application requirements and monitoring concept
+                while centralizing the infrastructure configuration & provisioning layer. We started with the Ansible
+                building blocks provided by the platform team but later rebuild with Terraform. Our Principal Architect
+                got sidetracked on another initiative, at which point I took over the tech lead role over the five
+                engineers working on this project.
               </section>
-            </section>
+              <div class="section-break-small"></div>
 
-            <!-- EDUCATION -->
-            <section class="mt-8 first:mt-0">
-              <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550">
-                EDUCATION
-              </h2>
-
-              <section class="mb-4.5 break-inside-avoid">
+              <!-- Helsana -->
+              <section class="mb-4">
                 <header>
-                  <h3
-                    class="text-lg font-semibold text-gray-700 leading-snugish"
-                  >
-                    MSc Systems & Control
-                  </h3>
-                  <p class="leading-normal text-md text-gray-650">
-                    Sep 2017 – Feb 2020 | Technical University of Delft
-                  </p>
+                  <div class="subheader">Azure Cloud Security & Governance Concept</div>
+                  <div class="subsub-header">Oct '23 - Apr '24 | 7 months | Cloud Lead</div>
                 </header>
-                <ul class="list-disc pl-4">
-                  <li>
-                    MSc thesis for Tritium (DC Fast Charger OEM, 5.000
-                    globally). (Grade 8.5 / 10.0)
-                  </li>
-                </ul>
-              </section>
-
-              <section class="mb-4.5 break-inside-avoid">
-                <header>
-                  <h3
-                    class="text-lg font-semibold text-gray-700 leading-snugish"
-                  >
-                    BSc Mechanical Engineering
-                  </h3>
-                  <p class="leading-normal text-md text-gray-650">
-                    Sep 2013 – Jul 2016 | Technical University of Delft
-                  </p>
-                </header>
-              </section>
-            </section>
-
-            <!-- EXTRA CURRICULAR -->
-            <section class="mt-8 first:mt-0">
-              <!-- To keep in the same column -->
-              <div class="break-inside-avoid">
-                <h2
-                  class="mb-4 font-bold tracking-widest text-sm2 text-gray-550"
-                >
-                  EXTRA-CURRICULAR
-                </h2>
-
-                <!-- FSTD -->
-                <section class="mb-4.5 break-inside-avoid">
-                  <header>
-                    <h3
-                      class="text-lg font-semibold text-gray-700 leading-snugish"
-                    >
-                      Powertrain Dep. Manager
-                    </h3>
-                    <p class="leading-normal text-md text-gray-650">
-                      Jul 2016 – Aug 2017 | Formula Student Team Delft
-                    </p>
-                  </header>
-                  <ul class="list-disc pl-4">
-                    <li>
-                      Competed in FS Hungary (2nd), FS Spain (4th) and FS
-                      Germany (12th).
-                    </li>
-                    <li>
-                      Team of 80 students collaborating on an open-wheel
-                      full-electric racecar.
-                    </li>
-                    <li>
-                      Set top-level design and anaged 11 powertrain engineers.
-                      Designed and manufactured 7kWh battery and 120kW
-                      powertrain, weighing 70kg.
-                    </li>
-                    <li>
-                      Initiated multi-season project to develop in-house SiC
-                      inverters, which improved overall efficiency by 5%.
-                    </li>
+                <div class="my-1 last:pb-1.5">
+                  <ul class="flex flex-wrap leading-relaxed -mb-2">
+                    <li class="tag">Sentinel</li>
+                    <li class="tag">Terraform</li>
+                    <li class="tag">Policy</li>
+                    <li class="tag">Governance</li>
+                    <li class="tag">Security</li>
+                    <li class="tag">Cloud Migration</li>
                   </ul>
-                </section>
+                </div>
+                For an upcoming FINMA audit, I led a two person engagement to advise on the Cloud Governance & Security
+                Monitoring concepts for a leading Swiss health insurer. We oversaw the resolution of 1,600
+                vulnerabilities in two months and supported the creation of their cloud governance, cloud security and
+                cloud operations team. We initiated Sentinel and Policy setups, boosting their Secure Score by 12% and
+                enhancing centralized monitoring for steady security.
+              </section>
+              <div class="section-break-small"></div>
 
-                <!-- THOR -->
-                <section class="mb-4.5 break-inside-avoid">
-                  <header>
-                    <h3
-                      class="text-lg font-semibold text-gray-700 leading-snugish"
-                    >
-                      Board - Secretary
-                    </h3>
-                    <p class="leading-normal text-md text-gray-650">
-                      Sep 2016 – Aug 2017 | SRC Thor | Delft
-                    </p>
-                  </header>
-                </section>
-
-                <!-- MINOR -->
-                <section class="mb-4.5 break-inside-avoid">
-                  <header>
-                    <h3
-                      class="text-lg font-semibold text-gray-700 leading-snugish"
-                    >
-                      Exchange Minor
-                    </h3>
-                    <p class="leading-normal text-md text-gray-650">
-                      Aug 2015 – Feb 2016 | Lund University | Lund, Sweden
-                    </p>
-                  </header>
-                  <!-- Free selection of courses: Advanced Mechatronics, Advanced
-                  Robotics, Computer Based Design, Transmission Design. -->
-                </section>
-
-                <!-- SUMMER EXCHANGE -->
-                <section class="mb-4.5 break-inside-avoid">
-                  <header>
-                    <h3
-                      class="text-lg font-semibold text-gray-700 leading-snugish"
-                    >
-                      Honours Programme Summer Exchange
-                    </h3>
-                    <p class="leading-normal text-md text-gray-650">
-                      Jul 2015 | Zhejiang University | Hangzhou, China
-                    </p>
-                  </header>
-                </section>
-
-                <!-- HONOURS -->
-                <section class="mb-4.5 break-inside-avoid">
-                  <header>
-                    <h3
-                      class="text-lg font-semibold text-gray-700 leading-snugish"
-                    >
-                      BSc Honours Programme
-                    </h3>
-                    <p class="leading-normal text-md text-gray-650">
-                      Sep 2014 - Aug 2015 | Technical University of Delft
-                    </p>
-                    <ul class="list-disc pl-4">
-                      <li>Elected from the top 5% students.</li>
-                    </ul>
-                  </header>
-                </section>
-              </div>
+              <!-- Zurich Insurance -->
+              <section class="mb-4">
+                <header>
+                  <div class="subheader">GPT-4 Landing Zone & Underwriter Assistant</div>
+                  <div class="subsub-header">Oct '23 - Aug '24 | 10 months | Cloud Lead</div>
+                </header>
+                <div class="my-1 last:pb-1.5">
+                  <ul class="flex flex-wrap leading-relaxed -mb-2">
+                    <li class="tag">OpenAI</li>
+                    <li class="tag">Azure DevOps</li>
+                    <li class="tag">AKS</li>
+                    <li class="tag">Terraform</li>
+                    <li class="tag">SQL Database</li>
+                    <li class="tag">.NET</li>
+                  </ul>
+                </div>
+                For a global insurance firm, we started prototyping a GPT-4 powered application to streamline the
+                underwriting process. After carefully deploying this to production and integrating it into their
+                proprietary underwriting platform, we turned our IaC into a full-fletched landing zone for GPT powered
+                applications.
+              </section>
+              <div class="section-break-small"></div>
             </section>
           </div>
 
-          <!-- RIGHT COLUMN -->
-          <div class="flex-1 p-10 bg-gray-400">
-            <!-- SKILLS -->
-            <section class="mt-8 first:mt-0">
-              <!-- To keep in the same column -->
-              <div class="break-inside-avoid">
-                <h2
-                  class="mb-4 font-bold tracking-widest text-sm2 text-gray-550"
-                >
-                  SKILLS
-                </h2>
+          <div class="flex-1 p-6">
+            <!-- Hamilton -->
+            <section class="mb-4">
+              <header>
+                <div class="subheader">IIoT Cloud Architecture for Medical Machines</div>
+                <div class="subsub-header">Nov '23 - Jan '24 | 3 months | Cloud Architect</div>
+              </header>
+              <div class="my-1 last:pb-1.5">
+                <ul class="flex flex-wrap leading-relaxed -mb-2">
+                  <li class="tag">Azure B2C</li>
+                  <li class="tag">HA/DR</li>
+                  <li class="tag">Front Door</li>
+                  <li class="tag">AKS</li>
+                  <li class="tag">IoT Hub</li>
+                  <li class="tag">Stream Analytics</li>
+                  <li class="tag">Cloud Migration</li>
+                </ul>
+              </div>
+              To boost revenue and outpace competitors, a Swiss medical manufacturer aimed to collect machine data. We
+              architected their Landing Zone, IIoT infrastructure, and Azure B2C identity management, addressing
+              regulatory compliance, secure networking, and scalable architecture. This preparation enabled a smooth
+              implementation start.
+            </section>
+            <div class="section-break-small"></div>
 
-                <div class="flex flex-row items-center justify-between w-full">
-                  Python
-                  <div class="flex flex-row">
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-solid fa-circle pr-1"></i>
-                  </div>
-                </div>
-                <div class="flex flex-row items-center justify-between w-full">
-                  SQL
-                  <div class="flex flex-row">
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-regular fa-circle pr-1"></i>
-                  </div>
-                </div>
-                <!-- IntelliJ & Eclipse -->
-                <div class="flex flex-row items-center justify-between w-full">
-                  Typescript
-                  <div class="flex flex-row">
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-regular fa-circle pr-1"></i>
-                  </div>
-                </div>
-                <div class="flex flex-row items-center justify-between w-full">
-                  Java
-                  <div class="flex flex-row">
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-regular fa-circle pr-1"></i>
-                    <i class="fa-regular fa-circle pr-1"></i>
-                    <i class="fa-regular fa-circle pr-1"></i>
-                  </div>
-                </div>
+            <!-- EV Chargers -->
+            <section class="mb-4">
+              <header>
+                <div class="subheader">IoT Platform for EV Chargers</div>
+                <div class="subsub-header">Jun '22 - Apr '23 | 10 months | Tech Lead</div>
+              </header>
+              <div class="my-1 last:pb-1.5">
+                <ul class="flex flex-wrap leading-relaxed -mb-2">
+                  <li class="tag">AKS</li>
+                  <li class="tag">IoT Hub</li>
+                  <li class="tag">Data Lake</li>
+                  <li class="tag">Functions</li>
+                  <li class="tag">Postgres</li>
+                  <li class="tag">RabbitMQ</li>
+                  <li class="tag">Python, TS</li>
+                  <li class="tag">Azure DevOps</li>
+                </ul>
+              </div>
+              We developed an charger management platform to tackle EV charger reliability. It centralizes
+              documentation, configurations, live telemetry, and uses machine learning for failure detection,
+              accelerating root cause analysis by up to 80%.
+            </section>
+            <div class="section-break-small"></div>
 
-                <div class="my-2" />
+            <!-- Smart Maintenance -->
+            <section class="mb-4">
+              <header>
+                <div class="subheader">Smart Maintenance Platform for Industrial Machinery Manufacturers</div>
+                <div class="subsub-header">Jan '21 - Jun '22 | 1.5 years | Tech Lead</div>
+              </header>
+              <div class="my-1 last:pb-1.5">
+                <ul class="flex flex-wrap leading-relaxed -mb-2">
+                  <li class="tag">GKE</li>
+                  <li class="tag">GCP Dataflow</li>
+                  <li class="tag">GCP IoT Core</li>
+                  <li class="tag">Azure</li>
+                  <li class="tag">Python, JS</li>
+                  <li class="tag">Github Actions</li>
+                </ul>
+              </div>
+              Designed and implemented a machine learning platform for predictive maintenance, integrating IoT data
+              sources. Enabled service engineers to efficiently manage data and develop over 1,000 machine learning
+              models for on-premises and cloud deployment, successfully predicting dozens of daily failures.
+            </section>
+            <div class="section-break-small"></div>
 
-                <div class="flex flex-row items-center justify-between w-full">
-                  Kubernetes
-                  <div class="flex flex-row">
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-regular fa-circle pr-1"></i>
-                  </div>
+            <!-- Solarmanager -->
+            <section class="mb-4">
+              <header>
+                <div class="subheader">Solar Manager AG Underperformance Detection</div>
+                <div class="subsub-header">2020 | 6 months | Machine Learning Engineer</div>
+                <div class="my-1 last:pb-1.5">
+                  <ul class="flex flex-wrap leading-relaxed -mb-2">
+                    <li class="tag">AWS EC2</li>
+                    <li class="tag">AWS S3</li>
+                    <li class="tag">Python</li>
+                    <li class="tag">Github Actions</li>
+                  </ul>
                 </div>
-                <div class="flex flex-row items-center justify-between w-full">
-                  Docker
-                  <div class="flex flex-row">
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-regular fa-circle pr-1"></i>
-                  </div>
-                </div>
-                <!-- <div class="flex flex-row items-center justify-between w-full">
-                  Databricks
-                  <div class="flex flex-row">
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-regular fa-circle pr-1"></i>
-                    <i class="fa-regular fa-circle pr-1"></i>
-                  </div>
-                </div>
-                <div class="flex flex-row items-center justify-between w-full">
-                  Apache Beam
-                  <div class="flex flex-row">
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-regular fa-circle pr-1"></i>
-                    <i class="fa-regular fa-circle pr-1"></i>
-                  </div>
-                </div>
-                <div class="flex flex-row items-center justify-between w-full">
-                  Rabbit MQ
-                  <div class="flex flex-row">
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-regular fa-circle pr-1"></i>
-                    <i class="fa-regular fa-circle pr-1"></i>
-                  </div>
-                </div>
-                <div class="flex flex-row items-center justify-between w-full">
-                  Airflow
-                  <div class="flex flex-row">
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-regular fa-circle pr-1"></i>
-                    <i class="fa-regular fa-circle pr-1"></i>
-                    <i class="fa-regular fa-circle pr-1"></i>
-                  </div>
-                </div>
-                <div class="flex flex-row items-center justify-between w-full">
-                  PySpark
-                  <div class="flex flex-row">
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-regular fa-circle pr-1"></i>
-                    <i class="fa-regular fa-circle pr-1"></i>
-                    <i class="fa-regular fa-circle pr-1"></i>
-                  </div>
-                </div> -->
+              </header>
+              Solar panel degradion often happens unnoticed, causing energy losses. We developed a model to check
+              whether the daily energy prodution was as expected, given the weather conditions. We detected
+              underperformance in 2% of users and increased user engagement by 15%.
+            </section>
+            <div class="section-break-small"></div>
 
-                <div class="my-2" />
-
-                <div class="flex flex-row items-center justify-between w-full">
-                  Postgres
-                  <div class="flex flex-row">
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-regular fa-circle pr-1"></i>
-                  </div>
-                </div>
-                <div class="flex flex-row items-center justify-between w-full">
-                  Timescale
-                  <div class="flex flex-row">
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-regular fa-circle pr-1"></i>
-                  </div>
-                </div>
-                <div class="flex flex-row items-center justify-between w-full">
-                  InfluxDB
-                  <div class="flex flex-row">
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-regular fa-circle pr-1"></i>
-                  </div>
-                </div>
-                <div class="flex flex-row items-center justify-between w-full">
-                  BigQuery
-                  <div class="flex flex-row">
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-regular fa-circle pr-1"></i>
-                    <i class="fa-regular fa-circle pr-1"></i>
-                  </div>
-                </div>
-                <div class="flex flex-row items-center justify-between w-full">
-                  MongoDB
-                  <div class="flex flex-row">
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-regular fa-circle pr-1"></i>
-                    <i class="fa-regular fa-circle pr-1"></i>
-                  </div>
-                </div>
-
-                <div class="my-2"></div>
-
-                <div class="flex flex-row items-center justify-between w-full">
-                  Scikit-Learn
-                  <div class="flex flex-row">
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-solid fa-circle pr-1"></i>
-                  </div>
-                </div>
-                <div class="flex flex-row items-center justify-between w-full">
-                  CatBoost
-                  <div class="flex flex-row">
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-solid fa-circle pr-1"></i>
-                  </div>
-                </div>
-                <div class="flex flex-row items-center justify-between w-full">
-                  Pandas
-                  <div class="flex flex-row">
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-solid fa-circle pr-1"></i>
-                  </div>
-                </div>
-                <div class="flex flex-row items-center justify-between w-full">
-                  PyTorch
-                  <div class="flex flex-row">
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-regular fa-circle pr-1"></i>
-                  </div>
-                </div>
-                <div class="flex flex-row items-center justify-between w-full">
-                  SpaCy
-                  <div class="flex flex-row">
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-regular fa-circle pr-1"></i>
-                    <i class="fa-regular fa-circle pr-1"></i>
-                  </div>
-                </div>
-                <div class="flex flex-row items-center justify-between w-full">
-                  OpenCV
-                  <div class="flex flex-row">
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-regular fa-circle pr-1"></i>
-                    <i class="fa-regular fa-circle pr-1"></i>
-                  </div>
-                </div>
-                <div class="flex flex-row items-center justify-between w-full">
-                  TensorFlow
-                  <div class="flex flex-row">
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-regular fa-circle pr-1"></i>
-                    <i class="fa-regular fa-circle pr-1"></i>
-                    <i class="fa-regular fa-circle pr-1"></i>
-                  </div>
-                </div>
-                <div class="flex flex-row items-center justify-between w-full">
-                  Statsmodels
-                  <div class="flex flex-row">
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-regular fa-circle pr-1"></i>
-                  </div>
-                </div>
-                <div class="flex flex-row items-center justify-between w-full">
-                  HuggingFace
-                  <div class="flex flex-row">
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-regular fa-circle pr-1"></i>
-                  </div>
-                </div>
-
-                <div class="my-2"></div>
-
-                <div class="flex flex-row items-center justify-between w-full">
-                  Git
-                  <div class="flex flex-row">
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-regular fa-circle pr-1"></i>
-                  </div>
-                </div>
-                <div class="flex flex-row items-center justify-between w-full">
-                  Jira
-                  <div class="flex flex-row">
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-regular fa-circle pr-1"></i>
-                  </div>
-                </div>
-                <div class="flex flex-row items-center justify-between w-full">
-                  Jenkins
-                  <div class="flex flex-row">
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-regular fa-circle pr-1"></i>
-                    <i class="fa-regular fa-circle pr-1"></i>
-                  </div>
-                </div>
-                <div class="flex flex-row items-center justify-between w-full">
-                  Terraform
-                  <div class="flex flex-row">
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-regular fa-circle pr-1"></i>
-                    <i class="fa-regular fa-circle pr-1"></i>
-                    <i class="fa-regular fa-circle pr-1"></i>
-                  </div>
-                </div>
-                <div class="flex flex-row items-center justify-between w-full">
-                  Github Actions
-                  <div class="flex flex-row">
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-regular fa-circle pr-1"></i>
-                  </div>
-                </div>
-                <div class="flex flex-row items-center justify-between w-full">
-                  ARM Templates
-                  <div class="flex flex-row">
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-solid fa-circle pr-1"></i>
-                    <i class="fa-regular fa-circle pr-1"></i>
-                    <i class="fa-regular fa-circle pr-1"></i>
-                    <i class="fa-regular fa-circle pr-1"></i>
-                  </div>
-                </div>
-
-                <div class="my-2"></div>
+            <!-- Saudi Aramco -->
+            <section class="mb-4">
+              <header>
+                <div class="subheader">Saudi Aramco Processhub</div>
+                <div class="subsub-header">2019 | 9 months | Machine Learning Engineer</div>
+              </header>
+              <div class="last:pb-1.5">
+                LNG transportation requires a large industrial compressor for liquification which is hard-to-control and
+                a single point of failure. We build a recommendation engine using a predictive model to support the
+                control engineers, reducing flaring by 9%.
               </div>
             </section>
           </div>

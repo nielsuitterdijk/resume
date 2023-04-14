@@ -28531,6 +28531,30 @@ body {
 }
 
 @media print {
+  .text-black {
+    font-size: 10px !important;
+  }
+
+  .h-full,
+  .grid,
+  .col-fill-auto,
+  .mx-auto,
+  .page,
+  .max-w-a4,
+  .h-a4,
+  .bg-gray-100 {
+    overflow: hidden;
+  }
+
+  .max-w-a4,
+  .h-a4 {
+    max-width: 210mm; /* A4 width */
+    height: 297mm; /* A4 height */
+    /* Adjust margins as needed */
+  }
+}
+
+@media print {
   @page {
     margin-top: 0in;
 
@@ -28548,58 +28572,16 @@ body {
   }
 
   .page {
-    padding: 0rem 0rem !important;
+    padding: 0 0 !important;
+  }
+
+  .text-black {
+    font-size: 10px !important;
   }
 
   .initial {
     color: transparent !important;
     text-shadow: 0 0 0 #fff !important;
-  }
-
-  h1, h2, h3, p, li {
-    color: black !important;
-  }
-
-  html {
-    font-size: 12.288px !important;
-  }
-}
-
-html {
-  font-size: 13.176471px;
-}
-
-/* For Letter size */
-
-@media (min-width: 640px) {
-  html {
-    font-size: calc( 13.176471px + (16 - 13.176471) * (100vw - 640px) / (833 - 640) );
-  }
-}
-
-@media (min-width: 833px) {
-  html {
-    font-size: calc( 12.288px + (16 - 12.288) * (100vw - 833px) / (1079.5 - 833) );
-  }
-}
-
-/* For A4 size */
-
-/* @screen sm {
-  html {
-    font-size: calc( 13.176471px + (16 - 13.176471) * (100vw - 640px) / (811 - 640) );
-  }
-}
-
-@screen md {
-  html {
-    font-size: calc( 12.288px + (16 - 12.288) * (100vw - 811px) / (1051 - 811) );
-  }
-} */
-
-@media (min-width: 1079.5px) {
-  html {
-    font-size: 16px;
   }
 }
 

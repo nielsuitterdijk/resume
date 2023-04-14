@@ -1,0 +1,108 @@
+/* Navy Blue - Headers and Titles */
+:root {
+  --green: #66936e;
+  --beige: #f0e4d1;
+}
+
+.name,
+.header,
+.title {
+  color: var(--green); /* Deep, professional navy blue */
+  font-size: 18px;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.header-line {
+  border-bottom: 2px solid var(--green); /* Navy blue underline */
+  padding-bottom: 2px; /* Adjusts spacing between text and underline */
+  margin-bottom: 4px;
+}
+
+.subheader {
+  color: var(
+    --green
+  ); /* Slightly lighter shade of blue than the main headers for distinction */
+  font-size: 16px; /* Adjust size as needed */
+  margin-top: 2px;
+}
+
+/* Subsub-Headers - Third-Level Headers */
+.subsub-header {
+  color: var(--green); /* Even lighter shade of blue for further distinction */
+  font-size: 14px; /* Adjust size as needed */
+  margin-top: 2px;
+  margin-bottom: 0px;
+}
+
+/* Soft Gray - Main Body Background */
+.body-background {
+  background-color: #f4f4f4; /* Soft, light gray that's easy on the eyes */
+}
+
+.sidebar-bg {
+  background-color: var(--beige);
+}
+
+.green-bg {
+  background-color: var(--green);
+}
+
+.text-black {
+  color: #777;
+  font-size: 14px;
+}
+
+/* White - Content Background */
+.content-background {
+  background-color: #ffffff; /* Clean, clear white for contrast and readability */
+}
+
+.strength {
+  padding-left: 4px;
+  padding-right: 4px;
+  margin-bottom: 3px;
+  margin-left: 3px;
+  margin-right: 3px;
+  color: var(--beige);
+  background-color: var(--green);
+  border-radius: 5px;
+  font-size: small;
+}
+.tag {
+  padding-left: 4px;
+  padding-right: 4px;
+  margin-bottom: 3px;
+  margin-left: 3px;
+  margin-right: 3px;
+  color: var(--green);
+  background-color: var(--beige);
+  border-radius: 5px;
+  font-size: small;
+}
+
+/* Crimson Red - CTAs and Section Breaks */
+.cta {
+  color: #dc143c; /* Vibrant, attention-grabbing crimson red */
+}
+
+/* Gold - Highlights and Achievements */
+.highlight,
+.achievement {
+  color: #ffd700; /* Bright, prestigious gold for important highlights */
+}
+
+/* Section Break - Divider */
+.section-break {
+  border-bottom: 2px solid #cccccc; /* Adds a crimson red divider for section breaks */
+  margin-top: 8px; /* Adds space above the divider */
+  margin-bottom: 8px; /* Adds space below the divider */
+}
+.section-break-small {
+  border-bottom: 2px solid #cccccc; /* Adds a crimson red divider for section breaks */
+  margin-top: 1px; /* Adds space above the divider */
+  margin-bottom: 1px; /* Adds space below the divider */
+}
